@@ -1,0 +1,695 @@
+{
+  "$comment": "Formes coptes relevées sur l'IMAGE du scan archive.org grammairecopteav00mall (page du livre + 21 = image n). Explications : paraphrases courtes de Mallon. Gloses fr = Mallon ; en/ar = traductions machine_draft de la glose française.",
+  "dialect": "B",
+  "review": { "coptic": "source_checked", "fr": "machine_draft", "en": "machine_draft", "ar": "machine_draft" },
+  "labels": {
+    "p1s": { "fr": "1re pers. sing.", "en": "1st sg.", "ar": "المتكلم (مفرد)" },
+    "p2m": { "fr": "2e pers. sing. masc.", "en": "2nd sg. masc.", "ar": "المخاطَب (مذكر مفرد)" },
+    "p2f": { "fr": "2e pers. sing. fém.", "en": "2nd sg. fem.", "ar": "المخاطَبة (مؤنث مفرد)" },
+    "p3m": { "fr": "3e pers. sing. masc.", "en": "3rd sg. masc.", "ar": "الغائب (مذكر مفرد)" },
+    "p3f": { "fr": "3e pers. sing. fém.", "en": "3rd sg. fem.", "ar": "الغائبة (مؤنث مفرد)" },
+    "p1p": { "fr": "1re pers. plur.", "en": "1st pl.", "ar": "المتكلمين (جمع)" },
+    "p2p": { "fr": "2e pers. plur.", "en": "2nd pl.", "ar": "المخاطَبين (جمع)" },
+    "p3p": { "fr": "3e pers. plur.", "en": "3rd pl.", "ar": "الغائبين (جمع)" },
+    "neut": { "fr": "neutre sing.", "en": "neuter sg.", "ar": "المحايد (مفرد)" },
+    "noun": { "fr": "devant un nom", "en": "before a noun", "ar": "قبل اسم" },
+    "aff": { "fr": "affirmatif", "en": "affirmative", "ar": "إثبات" },
+    "neg": { "fr": "négatif", "en": "negative", "ar": "نفي" },
+    "obj_m": { "fr": "devant un nom masc. sing.", "en": "before a masc. sg. noun", "ar": "قبل اسم مذكر مفرد" },
+    "obj_f": { "fr": "devant un nom fém. sing.", "en": "before a fem. sg. noun", "ar": "قبل اسم مؤنث مفرد" },
+    "obj_pl": { "fr": "devant un nom pluriel", "en": "before a plural noun", "ar": "قبل اسم جمع" },
+    "masc": { "fr": "masculin", "en": "masculine", "ar": "مذكر" },
+    "fem": { "fr": "féminin", "en": "feminine", "ar": "مؤنث" },
+    "plur": { "fr": "pluriel", "en": "plural", "ar": "جمع" },
+    "q_short": { "fr": "brève", "en": "short", "ar": "قصيرة" },
+    "q_long": { "fr": "longue", "en": "long", "ar": "طويلة" },
+    "q_var": { "fr": "longue ou brève", "en": "long or short", "ar": "طويلة أو قصيرة" },
+    "syl_open": { "fr": "syllabe ouverte", "en": "open syllable", "ar": "مقطع مفتوح" },
+    "syl_closed": { "fr": "syllabe fermée", "en": "closed syllable", "ar": "مقطع مقفول" },
+    "dem_adj": { "fr": "adjectif (proche)", "en": "adjective (near)", "ar": "صفة (قريب)" },
+    "dem_near": { "fr": "pronom (proche)", "en": "pronoun (near)", "ar": "ضمير (قريب)" },
+    "dem_far": { "fr": "pronom (éloigné)", "en": "pronoun (far)", "ar": "ضمير (بعيد)" }
+  },
+  "lessons": [
+    {
+      "id": "B-ORTH-VOWELS",
+      "category": "orthography",
+      "level": "A0",
+      "status": "available",
+      "title": { "fr": "Voyelles et diphtongues", "en": "Vowels and diphthongs", "ar": "الحروف المتحركة والإدغام" },
+      "summary": { "fr": "Les sept voyelles, ⲟⲩ, et les huit diphtongues.", "en": "The seven vowels, ⲟⲩ, and the eight diphthongs.", "ar": "الحروف المتحركة السبعة، ⲟⲩ، والإدغامات التمانية." },
+      "source_refs": ["MALLON_GRAMMAIRE"],
+      "sections": [
+        {
+          "text": { "fr": "Mallon compte sept voyelles : trois brèves (ⲁ ⲉ ⲟ), trois longues (ⲏ ⲱ ⲟⲩ) et ⲓ, qui peut être longue ou brève. ⲓ est généralement bref en fin de mot et long à l'intérieur.", "en": "Mallon counts seven vowels: three short (ⲁ ⲉ ⲟ), three long (ⲏ ⲱ ⲟⲩ) and ⲓ, which can be long or short. ⲓ is usually short at the end of a word and long inside it.", "ar": "Mallon بيعدّ سبع حروف متحركة: تلاتة قصيرة (ⲁ ⲉ ⲟ)، وتلاتة طويلة (ⲏ ⲱ ⲟⲩ)، و ⲓ اللي ممكن تكون طويلة أو قصيرة. ⲓ غالبًا قصيرة في آخر الكلمة وطويلة في نصها." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§9, p. 10" }
+        },
+        {
+          "text": { "fr": "Le copte a huit diphtongues : six terminées par ⲓ (ⲁⲓ ⲉⲓ ⲏⲓ ⲟⲓ ⲱⲓ ⲟⲩⲓ) et deux par ⲩ (ⲁⲩ ⲉⲩ). Le second élément y est une semi-consonne : y ou w.", "en": "Coptic has eight diphthongs: six ending in ⲓ (ⲁⲓ ⲉⲓ ⲏⲓ ⲟⲓ ⲱⲓ ⲟⲩⲓ) and two in ⲩ (ⲁⲩ ⲉⲩ). Their second element is a semi-consonant: y or w.", "ar": "في القبطي تمان إدغامات: ستة بيخلصوا بـ ⲓ (ⲁⲓ ⲉⲓ ⲏⲓ ⲟⲓ ⲱⲓ ⲟⲩⲓ) واتنين بـ ⲩ (ⲁⲩ ⲉⲩ). الجزء التاني فيهم نص ساكن: y أو w." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§10, p. 10" }
+        },
+        {
+          "text": { "fr": "Les groupes ⲏⲟⲩ, ⲟⲟⲩ, ⲱⲟⲩ, ⲟⲩⲟⲩ et ⲓⲟⲩ forment plutôt deux syllabes qu'une diphtongue.", "en": "The groups ⲏⲟⲩ, ⲟⲟⲩ, ⲱⲟⲩ, ⲟⲩⲟⲩ and ⲓⲟⲩ form two syllables rather than one diphthong.", "ar": "المجموعات ⲏⲟⲩ و ⲟⲟⲩ و ⲱⲟⲩ و ⲟⲩⲟⲩ و ⲓⲟⲩ بتعتبر مقطعين مش إدغام واحد." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§10, p. 10" }
+        }
+      ],
+      "paradigms": [
+        {
+          "id": "B-ORTH-VOWELS-QTY",
+          "title": { "fr": "Les sept voyelles", "en": "The seven vowels", "ar": "الحروف المتحركة السبعة" },
+          "cells": [
+            { "key": "a", "form": "ⲁ", "label": "q_short" },
+            { "key": "e", "form": "ⲉ", "label": "q_short" },
+            { "key": "o", "form": "ⲟ", "label": "q_short" },
+            { "key": "ee", "form": "ⲏ", "label": "q_long" },
+            { "key": "oo", "form": "ⲱ", "label": "q_long" },
+            { "key": "ou", "form": "ⲟⲩ", "label": "q_long" },
+            { "key": "i", "form": "ⲓ", "label": "q_var" }
+          ],
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§9, p. 10" }
+        },
+        {
+          "id": "B-ORTH-VOWELS-DIPH",
+          "title": { "fr": "Diphtongues : exemples de Mallon", "en": "Diphthongs: Mallon's examples", "ar": "الإدغامات: أمثلة Mallon" },
+          "cells": [
+            { "key": "fete", "form": "ϣⲁⲓ", "label": { "fr": "fête", "en": "feast", "ar": "عيد" } },
+            { "key": "temple", "form": "ⲉⲣⲫⲉⲓ", "label": { "fr": "temple", "en": "temple", "ar": "معبد" } },
+            { "key": "faisceau", "form": "ⲙⲏⲓⲣⲓ", "label": { "fr": "faisceau", "en": "bundle", "ar": "حزمة" } },
+            { "key": "champ", "form": "ⲕⲟⲓ", "label": { "fr": "champ", "en": "field", "ar": "غيط" } },
+            { "key": "surmoi", "form": "ⲉϫⲱⲓ", "label": { "fr": "sur moi", "en": "on me", "ar": "عليّا" } },
+            { "key": "matin", "form": "ⲧⲟⲟⲩⲓ", "label": { "fr": "matin", "en": "morning", "ar": "الصبح" } },
+            { "key": "pieds", "form": "ϭⲁⲗⲁⲩϫ", "label": { "fr": "pieds", "en": "feet", "ar": "رجلين" } },
+            { "key": "pensee", "form": "ⲙⲉⲩⲓ", "label": { "fr": "pensée", "en": "thought", "ar": "فكرة" } }
+          ],
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§10, p. 10" }
+        },
+        {
+          "id": "B-ORTH-VOWELS-GROUPS",
+          "title": { "fr": "Deux syllabes plutôt qu'une diphtongue", "en": "Two syllables rather than a diphthong", "ar": "مقطعين مش إدغام" },
+          "cells": [
+            { "key": "purifie", "form": "ⲧⲟⲩⲃⲏⲟⲩⲧ", "label": { "fr": "purifié", "en": "purified", "ar": "متطهر" } },
+            { "key": "jour", "form": "ⲉϩⲟⲟⲩ", "label": { "fr": "jour", "en": "day", "ar": "يوم" } },
+            { "key": "gloire", "form": "ⲱⲟⲩ", "label": { "fr": "gloire", "en": "glory", "ar": "مجد" } },
+            { "key": "leurs", "form": "ⲛⲟⲩⲟⲩ", "label": { "fr": "les leurs", "en": "theirs", "ar": "بتوعهم" } },
+            { "key": "etoile", "form": "ⲥⲓⲟⲩ", "label": { "fr": "étoile", "en": "star", "ar": "نجمة" } }
+          ],
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§10, p. 10" }
+        }
+      ],
+      "examples": []
+    },
+    {
+      "id": "B-ORTH-GREEK",
+      "category": "orthography",
+      "level": "A0",
+      "status": "available",
+      "title": { "fr": "Les mots grecs", "en": "Greek words", "ar": "الكلمات اليوناني" },
+      "summary": { "fr": "Orthographe des mots grecs selon la prononciation « moderne ».", "en": "Spelling of Greek words after the “modern” pronunciation.", "ar": "كتابة الكلمات اليوناني حسب النطق «الحديث»." },
+      "source_refs": ["MALLON_GRAMMAIRE"],
+      "sections": [
+        {
+          "text": { "fr": "Les Coptes ont prononcé les mots grecs selon la prononciation dite romaïque ou moderne, et l'ont souvent reportée dans l'écriture : la plupart des diphtongues ont été remplacées par des voyelles simples. Ainsi ⲁⲓ s'écrit souvent ⲉ, et ⲉⲓ s'écrit souvent ⲓ.", "en": "Copts pronounced Greek words in the so-called Romaic or modern way and often wrote them as pronounced: most diphthongs were replaced by simple vowels. So ⲁⲓ is often written ⲉ, and ⲉⲓ is often written ⲓ.", "ar": "الأقباط نطقوا الكلمات اليوناني بالنطق اللي اسمه الرومي أو الحديث، وكتير كتبوها زي ما بتتنطق: أغلب الإدغامات اتبدلت بحروف متحركة بسيطة. فـ ⲁⲓ كتير بتتكتب ⲉ، و ⲉⲓ كتير بتتكتب ⲓ." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§11, p. 10-11" }
+        },
+        {
+          "text": { "fr": "Le son i peut donc s'écrire de cinq manières : ⲉⲓ, ⲟⲓ, ⲏ, ⲓ, ⲩ, d'où des confusions fréquentes dans les manuscrits. Au début des mots grecs, les voyelles prennent souvent l'aspirée ϩ, surtout la voyelle i.", "en": "The sound i can therefore be written in five ways: ⲉⲓ, ⲟⲓ, ⲏ, ⲓ, ⲩ, hence frequent confusions in manuscripts. At the start of Greek words, vowels often take the aspirate ϩ, especially the vowel i.", "ar": "يعني صوت i ممكن يتكتب بخمس طرق: ⲉⲓ و ⲟⲓ و ⲏ و ⲓ و ⲩ، وعشان كده فيه لخبطة كتير في المخطوطات. وفي أول الكلمات اليوناني، الحروف المتحركة كتير بتاخد الهاء ϩ، خصوصًا صوت i." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§11, p. 11" }
+        }
+      ],
+      "paradigms": [
+        {
+          "id": "B-ORTH-GREEK-SPELL",
+          "title": { "fr": "Graphie copte et graphie grecque", "en": "Coptic and Greek spelling", "ar": "الكتابة القبطي والكتابة اليوناني" },
+          "alt_script": "coptic",
+          "cells": [
+            { "key": "ke", "form": "ⲕⲉ", "alt": "ⲕⲁⲓ" },
+            { "key": "dikeos", "form": "ⲇⲓⲕⲉⲟⲥ", "alt": "ⲇⲓⲕⲁⲓⲟⲥ" },
+            { "key": "charizesthe", "form": "ⲭⲁⲣⲓⲍⲉⲥⲑⲉ", "alt": "ⲭⲁⲣⲓⲍⲉⲥⲑⲁⲓ" },
+            { "key": "agiazin", "form": "ⲁⲅⲓⲁⲍⲓⲛ", "alt": "ⲁⲅⲓⲁⲍⲉⲓⲛ" }
+          ],
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§11, p. 11" }
+        },
+        {
+          "id": "B-ORTH-GREEK-ASP",
+          "title": { "fr": "L'aspirée ϩ au début des mots grecs", "en": "The aspirate ϩ at the start of Greek words", "ar": "الهاء ϩ في أول الكلمات اليوناني" },
+          "alt_script": "greek",
+          "cells": [
+            { "key": "hina", "form": "ϩⲓⲛⲁ", "alt": "ἵνα" },
+            { "key": "hirene", "form": "ϩⲓⲣⲏⲛⲏ", "alt": "εἰρήνη" }
+          ],
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§11, p. 11" }
+        }
+      ],
+      "examples": []
+    },
+    {
+      "id": "B-ORTH-SYLL",
+      "category": "orthography",
+      "level": "A0",
+      "status": "available",
+      "title": { "fr": "Syllabes et voyelle auxiliaire (accent grave)", "en": "Syllables and the auxiliary vowel (grave accent)", "ar": "المقاطع والحرف المتحرك المساعد (العلامة)" },
+      "summary": { "fr": "Syllabes ouvertes et fermées ; ⲉ initial noté par un accent grave.", "en": "Open and closed syllables; initial ⲉ marked by a grave accent.", "ar": "المقاطع المفتوحة والمقفولة؛ و ⲉ اللي في الأول بتتعلّم بعلامة." },
+      "source_refs": ["MALLON_GRAMMAIRE"],
+      "sections": [
+        {
+          "text": { "fr": "Une syllabe est ouverte quand elle se termine par une voyelle, fermée quand elle se termine par une consonne.", "en": "A syllable is open when it ends in a vowel, closed when it ends in a consonant.", "ar": "المقطع بيبقى مفتوح لما يخلص بحرف متحرك، ومقفول لما يخلص بحرف ساكن." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§12, p. 12" }
+        },
+        {
+          "text": { "fr": "En règle générale, la voyelle accentuée (« formative ») est longue en syllabe ouverte et brève en syllabe fermée, avec beaucoup d'exceptions.", "en": "As a rule, the stressed (“formative”) vowel is long in an open syllable and short in a closed one, with many exceptions.", "ar": "كقاعدة عامة، الحرف المتحرك اللي عليه النبرة طويل في المقطع المفتوح وقصير في المقفول، وفيه استثناءات كتير." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§16, p. 14" }
+        },
+        {
+          "text": { "fr": "En tête des mots, la voyelle auxiliaire ⲉ ne s'écrit généralement pas : devant ⲙ et ⲛ, elle est indiquée par un accent grave (ⲙ̀, ⲛ̀). On trouve aussi ces mots écrits avec ⲉ, surtout en seconde partie d'un mot composé.", "en": "At the start of words the auxiliary vowel ⲉ is usually not written: before ⲙ and ⲛ it is shown by a grave accent (ⲙ̀, ⲛ̀). These words are also found written with ⲉ, especially as the second part of a compound.", "ar": "في أول الكلمات، الحرف المساعد ⲉ غالبًا مش بيتكتب: قبل ⲙ و ⲛ بيتعلّم بعلامة فوق الحرف (ⲙ̀، ⲛ̀). وبتلاقي الكلمات دي مكتوبة بـ ⲉ كمان، خصوصًا لما تكون الجزء التاني من كلمة مركبة." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§20, p. 15-16" }
+        }
+      ],
+      "paradigms": [
+        {
+          "id": "B-ORTH-SYLL-TYPE",
+          "title": { "fr": "Ouverte ou fermée ?", "en": "Open or closed?", "ar": "مفتوح ولا مقفول؟" },
+          "cells": [
+            { "key": "boire", "form": "ⲥⲱ", "label": "syl_open", "note": { "fr": "« boire »", "en": "“to drink”", "ar": "«يشرب»" } },
+            { "key": "lieu", "form": "ⲙⲁ", "label": "syl_open", "note": { "fr": "« lieu »", "en": "“place”", "ar": "«مكان»" } },
+            { "key": "fois", "form": "ⲥⲟⲡ", "label": "syl_closed", "note": { "fr": "« fois »", "en": "“time (occurrence)”", "ar": "«مرة»" } },
+            { "key": "faire", "form": "ⲉⲣ", "label": "syl_closed", "note": { "fr": "« faire »", "en": "“to do”", "ar": "«يعمل»" } }
+          ],
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§12, p. 12" }
+        },
+        {
+          "id": "B-ORTH-SYLL-JENKIM",
+          "title": { "fr": "Accent grave = ⲉ non écrit", "en": "Grave accent = unwritten ⲉ", "ar": "العلامة = ⲉ مش مكتوبة" },
+          "alt_script": "coptic",
+          "cells": [
+            { "key": "douleur", "form": "ⲙ̀ⲕⲁϩ", "alt": "ⲉⲙⲕⲁϩ", "label": { "fr": "douleur", "en": "pain", "ar": "وجع" } },
+            { "key": "fidele", "form": "ⲛ̀ϩⲟⲧ", "alt": "ⲉⲛϩⲟⲧ", "label": { "fr": "être fidèle", "en": "to be faithful", "ar": "يكون أمين" } }
+          ],
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§20, p. 15" }
+        }
+      ],
+      "examples": [
+        { "coptic": "ⲁⲧⲉⲙⲕⲁϩ", "translation": { "fr": "« sans douleur »", "en": "“without pain”", "ar": "«من غير وجع»" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§20, p. 16" } },
+        { "coptic": "ⲡⲓⲣⲱⲙⲓ ⲉⲧⲉⲛϩⲟⲧ", "translation": { "fr": "« l'homme fidèle »", "en": "“the faithful man”", "ar": "«الراجل الأمين»" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§20, p. 16" } }
+      ]
+    },
+    {
+      "id": "B-ORTH-ABBR",
+      "category": "orthography",
+      "level": "A0",
+      "status": "available",
+      "title": { "fr": "Abréviations usuelles", "en": "Common abbreviations", "ar": "الاختصارات المعتادة" },
+      "summary": { "fr": "Les noms sacrés abrégés sous un trait horizontal.", "en": "Sacred names abbreviated under a horizontal stroke.", "ar": "الأسماء المقدسة المختصرة تحت خط أفقي." },
+      "source_refs": ["MALLON_GRAMMAIRE"],
+      "sections": [
+        {
+          "text": { "fr": "Les manuscrits et les éditions imprimées abrègent certains mots fréquents, surmontés d'un trait horizontal. ⲫϯ ne prend pas ce trait. ⲡϭⲥ s'écrit aussi sans le trait.", "en": "Manuscripts and printed editions abbreviate some frequent words under a horizontal stroke. ⲫϯ does not take this stroke. ⲡϭⲥ is also written without it.", "ar": "المخطوطات والطبعات بتختصر شوية كلمات بتتكرر كتير وبتحط فوقها خط أفقي. ⲫϯ مش بياخد الخط ده. و ⲡϭⲥ بيتكتب كمان من غير الخط." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§40, p. 22-23" }
+        },
+        {
+          "text": { "fr": "Dans l'application, le trait est affiché au-dessus de toute l'abréviation ; sa position exacte varie selon les manuscrits.", "en": "In the app the stroke is shown over the whole abbreviation; its exact position varies between manuscripts.", "ar": "في الأبلكيشن الخط بيظهر فوق الاختصار كله؛ ومكانه بالظبط بيختلف من مخطوطة للتانية." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§40, p. 22" }
+        }
+      ],
+      "paradigms": [
+        {
+          "id": "B-ORTH-ABBR-LIST",
+          "title": { "fr": "Abréviations et mots pleins", "en": "Abbreviations and full words", "ar": "الاختصارات والكلمات الكاملة" },
+          "alt_script": "coptic",
+          "cells": [
+            { "key": "jesus", "form": "ⲓ̅ⲏ̅ⲥ̅", "alt": "ⲓⲏⲥⲟⲩⲥ", "label": { "fr": "Jésus", "en": "Jesus", "ar": "يسوع" } },
+            { "key": "christ", "form": "ⲭ̅ⲥ̅", "alt": "ⲭⲣⲓⲥⲧⲟⲥ", "label": { "fr": "Christ", "en": "Christ", "ar": "المسيح" } },
+            { "key": "dieu", "form": "ⲫϯ", "alt": "ⲫⲛⲟⲩϯ", "label": { "fr": "Dieu", "en": "God", "ar": "ربنا" } },
+            { "key": "israel", "form": "ⲓ̅ⲥ̅ⲗ̅", "alt": "ⲓⲥⲣⲁⲏⲗ", "label": { "fr": "Israël", "en": "Israel", "ar": "إسرائيل" } },
+            { "key": "esprit", "form": "ⲡ̅ⲛ̅ⲁ̅", "alt": "ⲡⲛⲉⲩⲙⲁ", "label": { "fr": "esprit", "en": "spirit", "ar": "روح" } },
+            { "key": "saint", "form": "ⲉ̅ⲑ̅ⲩ̅", "alt": "ⲉⲑⲟⲩⲁⲃ", "label": { "fr": "saint", "en": "holy", "ar": "قدوس" } },
+            { "key": "seigneur", "form": "ⲡ̅ϭ̅ⲥ̅", "alt": "ⲡϭⲟⲓⲥ", "label": { "fr": "le Seigneur", "en": "the Lord", "ar": "الرب" } },
+            { "key": "jerusalem", "form": "ⲓ̅ⲗ̅ⲏ̅ⲙ̅", "alt": "ⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ", "label": { "fr": "Jérusalem", "en": "Jerusalem", "ar": "أورشليم" } }
+          ],
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§40, p. 22" }
+        }
+      ],
+      "examples": []
+    },
+    {
+      "id": "B-GRAM-ART",
+      "category": "grammar",
+      "level": "A1",
+      "status": "available",
+      "title": { "fr": "L'article défini et indéfini", "en": "Definite and indefinite article", "ar": "أداة التعريف والتنكير" },
+      "summary": { "fr": "Article faible ⲡ ⲧ, fort ⲡⲓ ϯ, pluriel ⲛⲓ ⲛⲉⲛ ; indéfini ⲟⲩ ϩⲁⲛ.", "en": "Weak article ⲡ ⲧ, strong ⲡⲓ ϯ, plural ⲛⲓ ⲛⲉⲛ; indefinite ⲟⲩ ϩⲁⲛ.", "ar": "الأداة الضعيفة ⲡ ⲧ، القوية ⲡⲓ ϯ، الجمع ⲛⲓ ⲛⲉⲛ؛ والتنكير ⲟⲩ ϩⲁⲛ." },
+      "source_refs": ["MALLON_GRAMMAIRE"],
+      "sections": [
+        {
+          "text": { "fr": "L'article défini est faible (ⲡ masc., ⲧ fém.) ou fort (ⲡⲓ masc., ϯ fém.) ; au pluriel : ⲛⲓ, ⲛⲉⲛ. ⲫ et ⲑ remplacent ⲡ et ⲧ devant ⲃ ⲗ ⲙ ⲛ ⲣ, et quelquefois devant ⲓ et ⲟⲩ.", "en": "The definite article is weak (ⲡ masc., ⲧ fem.) or strong (ⲡⲓ masc., ϯ fem.); plural: ⲛⲓ, ⲛⲉⲛ. ⲫ and ⲑ replace ⲡ and ⲧ before ⲃ ⲗ ⲙ ⲛ ⲣ, and sometimes before ⲓ and ⲟⲩ.", "ar": "أداة التعريف يا ضعيفة (ⲡ للمذكر، ⲧ للمؤنث) يا قوية (ⲡⲓ للمذكر، ϯ للمؤنث)؛ وفي الجمع: ⲛⲓ، ⲛⲉⲛ. ⲫ و ⲑ بيحلوا محل ⲡ و ⲧ قبل ⲃ ⲗ ⲙ ⲛ ⲣ، وساعات قبل ⲓ و ⲟⲩ." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§41, p. 24" }
+        },
+        {
+          "text": { "fr": "L'article faible détermine de façon moins précise : noms génériques, abstraits, êtres uniques. L'article fort désigne un individu en particulier.", "en": "The weak article determines less precisely: generic or abstract nouns, unique beings. The strong article points to a particular individual.", "ar": "الأداة الضعيفة بتحدد بشكل أقل دقة: الأسماء العامة والمجردة والحاجات اللي ملهاش زي. والأداة القوية بتشاور على حاجة معينة بالذات." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§42, p. 24-25" }
+        },
+        {
+          "text": { "fr": "Les mots commençant par ⲁ prennent généralement ⲡⲓ ; ceux qui commencent par ⲟⲩ ou ⲱ prennent ⲡ. ⲛⲉⲛ ne s'emploie que devant un nom suivi d'un complément (annexion) ; ⲛⲓ s'emploie partout.", "en": "Words beginning with ⲁ usually take ⲡⲓ; those beginning with ⲟⲩ or ⲱ take ⲡ. ⲛⲉⲛ is only used before a noun followed by a complement (annexation); ⲛⲓ is used everywhere.", "ar": "الكلمات اللي بتبدأ بـ ⲁ غالبًا بتاخد ⲡⲓ؛ واللي بتبدأ بـ ⲟⲩ أو ⲱ بتاخد ⲡ. ⲛⲉⲛ بتستعمل بس قبل اسم بعده مضاف إليه؛ و ⲛⲓ بتستعمل في كل حتة." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§43-44, p. 25" }
+        },
+        {
+          "text": { "fr": "L'article indéfini est ⲟⲩ « un, une » au singulier et ϩⲁⲛ « des » au pluriel.", "en": "The indefinite article is ⲟⲩ “a, an” in the singular and ϩⲁⲛ “some” in the plural.", "ar": "أداة التنكير هي ⲟⲩ «واحد، واحدة» في المفرد و ϩⲁⲛ «شوية» في الجمع." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§45, p. 25" }
+        }
+      ],
+      "paradigms": [
+        {
+          "id": "B-GRAM-ART-FORMS",
+          "title": { "fr": "Formes de l'article", "en": "Forms of the article", "ar": "أشكال الأداة" },
+          "cells": [
+            { "key": "weak.m", "form": "ⲡ", "variants": ["ⲫ"], "label": { "fr": "défini faible, masc. sing.", "en": "definite weak, masc. sg.", "ar": "تعريف ضعيف، مذكر مفرد" } },
+            { "key": "weak.f", "form": "ⲧ", "variants": ["ⲑ"], "label": { "fr": "défini faible, fém. sing.", "en": "definite weak, fem. sg.", "ar": "تعريف ضعيف، مؤنث مفرد" } },
+            { "key": "strong.m", "form": "ⲡⲓ", "label": { "fr": "défini fort, masc. sing.", "en": "definite strong, masc. sg.", "ar": "تعريف قوي، مذكر مفرد" } },
+            { "key": "strong.f", "form": "ϯ", "label": { "fr": "défini fort, fém. sing.", "en": "definite strong, fem. sg.", "ar": "تعريف قوي، مؤنث مفرد" } },
+            { "key": "pl", "form": "ⲛⲓ", "label": { "fr": "défini pluriel", "en": "definite plural", "ar": "تعريف جمع" } },
+            { "key": "pl.annex", "form": "ⲛⲉⲛ", "label": { "fr": "défini pluriel, devant un nom en annexion", "en": "definite plural, before an annexed noun", "ar": "تعريف جمع، قبل اسم مضاف" } },
+            { "key": "indef.sg", "form": "ⲟⲩ", "label": { "fr": "indéfini singulier", "en": "indefinite singular", "ar": "تنكير مفرد" } },
+            { "key": "indef.pl", "form": "ϩⲁⲛ", "label": { "fr": "indéfini pluriel", "en": "indefinite plural", "ar": "تنكير جمع" } }
+          ],
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§41, §45, p. 24-25" }
+        }
+      ],
+      "recognitions": [
+        { "coptic": "ⲫ-ⲛⲟⲩϯ", "paradigm": "B-GRAM-ART-FORMS", "cell": "weak.m", "gloss": { "fr": "Dieu", "en": "God", "ar": "ربنا" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§42, p. 25" } },
+        { "coptic": "ⲡⲓ-ⲛⲟⲩϯ", "paradigm": "B-GRAM-ART-FORMS", "cell": "strong.m", "gloss": { "fr": "le dieu", "en": "the god", "ar": "الإله" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§42, p. 25" } },
+        { "coptic": "ⲧ-ⲫⲉ", "paradigm": "B-GRAM-ART-FORMS", "cell": "weak.f", "gloss": { "fr": "le ciel", "en": "the sky", "ar": "السما" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§42, p. 25" } },
+        { "coptic": "ϯ-ⲫⲉ", "paradigm": "B-GRAM-ART-FORMS", "cell": "strong.f", "gloss": { "fr": "le ciel (précis)", "en": "the (particular) sky", "ar": "السما (المعينة)" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§42, p. 25" } },
+        { "coptic": "ⲫ-ⲣⲏ", "paradigm": "B-GRAM-ART-FORMS", "cell": "weak.m", "gloss": { "fr": "le soleil", "en": "the sun", "ar": "الشمس" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§42, p. 25" } },
+        { "coptic": "ⲡⲓ-ⲁⲥⲉⲃⲏⲥ", "paradigm": "B-GRAM-ART-FORMS", "cell": "strong.m", "gloss": { "fr": "l'impie", "en": "the impious one", "ar": "الشرير" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§43, p. 25" } },
+        { "coptic": "ⲡⲓ-ⲁⲧϩⲏⲧ", "paradigm": "B-GRAM-ART-FORMS", "cell": "strong.m", "gloss": { "fr": "l'insensé", "en": "the fool", "ar": "الغبي" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§43, p. 25" } },
+        { "coptic": "ⲡ-ⲟⲩⲣⲟ", "paradigm": "B-GRAM-ART-FORMS", "cell": "weak.m", "gloss": { "fr": "le roi", "en": "the king", "ar": "الملك" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§43, p. 25" } },
+        { "coptic": "ⲡ-ⲱⲛϧ", "paradigm": "B-GRAM-ART-FORMS", "cell": "weak.m", "gloss": { "fr": "la vie", "en": "life", "ar": "الحياة" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§43, p. 25" } },
+        { "coptic": "ⲫ-ⲓⲱⲧ", "paradigm": "B-GRAM-ART-FORMS", "cell": "weak.m", "gloss": { "fr": "le père", "en": "the father", "ar": "الأب" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§43, p. 25" } },
+        { "coptic": "ⲟⲩ-ⲣⲱⲙⲓ", "paradigm": "B-GRAM-ART-FORMS", "cell": "indef.sg", "gloss": { "fr": "un homme", "en": "a man", "ar": "راجل" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§45, p. 25" } },
+        { "coptic": "ϩⲁⲛ-ⲣⲱⲙⲓ", "paradigm": "B-GRAM-ART-FORMS", "cell": "indef.pl", "gloss": { "fr": "des hommes", "en": "men", "ar": "رجالة" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§45, p. 25" } },
+        { "coptic": "ⲟⲩ-ⲥϩⲓⲙⲓ", "paradigm": "B-GRAM-ART-FORMS", "cell": "indef.sg", "gloss": { "fr": "une femme", "en": "a woman", "ar": "ست" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§45, p. 25" } },
+        { "coptic": "ϩⲁⲛ-ϩⲓⲟⲙⲓ", "paradigm": "B-GRAM-ART-FORMS", "cell": "indef.pl", "gloss": { "fr": "des femmes", "en": "women", "ar": "ستات" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§45, p. 25" } }
+      ],
+      "examples": [
+        { "coptic": "ϯ-ⲫⲉ ⲙ̀ⲃⲉⲣⲓ", "translation": { "fr": "« le ciel nouveau »", "en": "“the new heaven”", "ar": "«السما الجديدة»" }, "attestation": "Théot. 117", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§42, p. 25" } },
+        { "coptic": "ⲡⲓ-ⲣⲏ ⲛ̀ⲧⲉ ϯ-ⲙⲉⲑⲙⲏⲓ", "translation": { "fr": "« le Soleil de Justice »", "en": "“the Sun of Justice”", "ar": "«شمس البر»" }, "attestation": "Théot. 117", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§42, p. 25" } },
+        { "coptic": "ⲛⲉⲛ-ⲙⲱⲓⲧ ⲙ̀ⲫⲣⲱⲙⲓ", "translation": { "fr": "« les voies de l'homme »", "en": "“the ways of man”", "ar": "«طرق الإنسان»" }, "attestation": "Pr. 5, 21", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§44, p. 25" } }
+      ]
+    },
+    {
+      "id": "B-GRAM-PRON",
+      "category": "grammar",
+      "level": "A1",
+      "status": "available",
+      "title": { "fr": "Pronoms personnels", "en": "Personal pronouns", "ar": "الضماير الشخصية" },
+      "summary": { "fr": "Pronoms affixes, pronoms absolus, suffixation aux prépositions.", "en": "Affix pronouns, independent pronouns, suffixes on prepositions.", "ar": "الضماير المتصلة، الضماير المنفصلة، والضماير مع حروف الجر." },
+      "source_refs": ["MALLON_GRAMMAIRE"],
+      "sections": [
+        {
+          "text": { "fr": "Les pronoms affixes s'ajoutent à l'article, aux noms, aux verbes et aux prépositions pour indiquer la personne ; c'est la suffixation. À la 2e pers. fém. sing., l'affixe est nul ou ⲓ ; le neutre singulier est ⲥ.", "en": "Affix pronouns are added to the article, nouns, verbs and prepositions to mark the person; this is suffixation. In the 2nd sg. fem. the affix is zero or ⲓ; the neuter singular is ⲥ.", "ar": "الضماير المتصلة بتتزق في الأداة والأسماء والأفعال وحروف الجر عشان تبين الشخص؛ ودي اسمها الإلحاق. في المخاطَبة المفردة الضمير يا مفيش يا ⲓ؛ والمحايد المفرد ⲥ." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§58-59, p. 30" }
+        },
+        {
+          "text": { "fr": "La 2e pers. plur. a aussi une forme pleine fréquente, -ⲑⲏⲛⲟⲩ, toujours complément.", "en": "The 2nd pl. also has a frequent full form, -ⲑⲏⲛⲟⲩ, always an object.", "ar": "المخاطَبين ليهم كمان شكل كامل بيتكرر كتير، -ⲑⲏⲛⲟⲩ، وبيكون دايمًا مفعول." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§60, p. 30" }
+        },
+        {
+          "text": { "fr": "Exemple de suffixation : les prépositions ⲉ- / ⲉⲣⲟ⸗ « vers, à » et ⲛ̀- / ⲛ⸗ « à ». Le génitif ⲛ̀ⲧⲉ- / ⲛ̀ⲧ⸗ et ⲛⲉⲙ⸗ « avec » se construisent comme ⲛ⸗.", "en": "Example of suffixation: the prepositions ⲉ- / ⲉⲣⲟ⸗ “towards, to” and ⲛ̀- / ⲛ⸗ “to”. The genitive ⲛ̀ⲧⲉ- / ⲛ̀ⲧ⸗ and ⲛⲉⲙ⸗ “with” follow ⲛ⸗.", "ar": "مثال على الإلحاق: حروف الجر ⲉ- / ⲉⲣⲟ⸗ «ناحية، لـ» و ⲛ̀- / ⲛ⸗ «لـ». وأداة الإضافة ⲛ̀ⲧⲉ- / ⲛ̀ⲧ⸗ و ⲛⲉⲙ⸗ «مع» ماشيين زي ⲛ⸗." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§61, p. 31" }
+        },
+        {
+          "text": { "fr": "Les pronoms absolus sont des mots indépendants : ⲁⲛⲟⲕ « moi », ⲛ̀ⲑⲟⲕ « toi », etc.", "en": "Independent pronouns are free words: ⲁⲛⲟⲕ “I/me”, ⲛ̀ⲑⲟⲕ “you”, etc.", "ar": "الضماير المنفصلة كلمات لوحدها: ⲁⲛⲟⲕ «أنا»، ⲛ̀ⲑⲟⲕ «إنت»، وهكذا." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§62, p. 31" }
+        }
+      ],
+      "paradigms": [
+        {
+          "id": "B-GRAM-PRON-AFF",
+          "title": { "fr": "Pronoms affixes", "en": "Affix pronouns", "ar": "الضماير المتصلة" },
+          "cells": [
+            { "key": "p1s", "form": "ⲓ", "variants": ["ⲧ"], "label": "p1s" },
+            { "key": "p2m", "form": "ⲕ", "label": "p2m" },
+            { "key": "p2f", "form": "ⲓ", "label": "p2f", "note": { "fr": "ou rien", "en": "or zero", "ar": "أو مفيش" }, "drill": false },
+            { "key": "p3m", "form": "ϥ", "label": "p3m" },
+            { "key": "p3f", "form": "ⲥ", "label": "p3f" },
+            { "key": "p1p", "form": "ⲛ", "label": "p1p" },
+            { "key": "p2p", "form": "ⲧⲉⲛ", "label": "p2p" },
+            { "key": "p3p", "form": "ⲟⲩ", "label": "p3p" },
+            { "key": "neut", "form": "ⲥ", "label": "neut", "drill": false }
+          ],
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§58, p. 30" }
+        },
+        {
+          "id": "B-GRAM-PRON-ABS",
+          "title": { "fr": "Pronoms absolus", "en": "Independent pronouns", "ar": "الضماير المنفصلة" },
+          "cells": [
+            { "key": "p1s", "form": "ⲁⲛⲟⲕ", "label": "p1s" },
+            { "key": "p2m", "form": "ⲛ̀ⲑⲟⲕ", "label": "p2m" },
+            { "key": "p2f", "form": "ⲛ̀ⲑⲟ", "label": "p2f" },
+            { "key": "p3m", "form": "ⲛ̀ⲑⲟϥ", "label": "p3m" },
+            { "key": "p3f", "form": "ⲛ̀ⲑⲟⲥ", "label": "p3f" },
+            { "key": "p1p", "form": "ⲁⲛⲟⲛ", "label": "p1p" },
+            { "key": "p2p", "form": "ⲛ̀ⲑⲱⲧⲉⲛ", "label": "p2p" },
+            { "key": "p3p", "form": "ⲛ̀ⲑⲱⲟⲩ", "label": "p3p" }
+          ],
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§62, p. 31" }
+        },
+        {
+          "id": "B-GRAM-PRON-ERO",
+          "title": { "fr": "ⲉⲣⲟ⸗ « vers, à » + affixe", "en": "ⲉⲣⲟ⸗ “towards, to” + affix", "ar": "ⲉⲣⲟ⸗ «ناحية، لـ» + ضمير" },
+          "cells": [
+            { "key": "p1s", "form": "ⲉⲣⲟⲓ", "label": "p1s" },
+            { "key": "p2m", "form": "ⲉⲣⲟⲕ", "label": "p2m" },
+            { "key": "p2f", "form": "ⲉⲣⲟ", "label": "p2f" },
+            { "key": "p3m", "form": "ⲉⲣⲟϥ", "label": "p3m" },
+            { "key": "p3f", "form": "ⲉⲣⲟⲥ", "label": "p3f" },
+            { "key": "p1p", "form": "ⲉⲣⲟⲛ", "label": "p1p" },
+            { "key": "p2p", "form": "ⲉⲣⲱⲧⲉⲛ", "label": "p2p" },
+            { "key": "p3p", "form": "ⲉⲣⲱⲟⲩ", "label": "p3p" }
+          ],
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§61, p. 31" }
+        },
+        {
+          "id": "B-GRAM-PRON-N",
+          "title": { "fr": "ⲛ⸗ « à » + affixe", "en": "ⲛ⸗ “to” + affix", "ar": "ⲛ⸗ «لـ» + ضمير" },
+          "cells": [
+            { "key": "p1s", "form": "ⲛⲏⲓ", "label": "p1s" },
+            { "key": "p2m", "form": "ⲛⲁⲕ", "label": "p2m" },
+            { "key": "p2f", "form": "ⲛⲉ", "label": "p2f" },
+            { "key": "p3m", "form": "ⲛⲁϥ", "label": "p3m" },
+            { "key": "p3f", "form": "ⲛⲁⲥ", "label": "p3f" },
+            { "key": "p1p", "form": "ⲛⲁⲛ", "label": "p1p" },
+            { "key": "p2p", "form": "ⲛⲱⲧⲉⲛ", "label": "p2p" },
+            { "key": "p3p", "form": "ⲛⲱⲟⲩ", "label": "p3p" }
+          ],
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§61, p. 31" }
+        }
+      ],
+      "recognitions": [
+        { "coptic": "ⲡϭⲟⲓⲥ ⲛⲁϣⲓⲛⲓ ⲉⲣⲱⲧⲉⲛ", "paradigm": "B-GRAM-PRON-ERO", "cell": "p2p", "gloss": { "fr": "« le Seigneur vous visitera »", "en": "“the Lord will visit you”", "ar": "«الرب هيفتقدكم»" }, "attestation": "Ex. 13, 19", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§240, p. 110" } },
+        { "coptic": "ϯϫⲱ ⲙ̀ⲙⲟⲥ ⲛⲁⲕ ⲧⲱⲛⲕ", "paradigm": "B-GRAM-PRON-N", "cell": "p2m", "gloss": { "fr": "« je te le dis, lève-toi »", "en": "“I say to you, arise”", "ar": "«بقولك قوم»" }, "attestation": "Luc 7, 14", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§236, p. 107" } }
+      ],
+      "examples": [
+        { "coptic": "ϯ ⲛⲉⲙⲱⲧⲉⲛ", "translation": { "fr": "« je suis avec vous »", "en": "“I am with you”", "ar": "«أنا معاكم»" }, "attestation": "Jean 14, 9", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§236, p. 107" } },
+        { "coptic": "ⲧⲉⲥⲙⲁⲣⲱⲟⲩⲧ ⲛ̀ⲑⲟ ϧⲉⲛ ⲛⲓϩⲓⲟⲙⲓ", "translation": { "fr": "« tu es bénie entre les femmes »", "en": "“blessed are you among women”", "ar": "«مباركة إنتي في الستات»" }, "attestation": "Luc 1, 42", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§236, p. 107" } }
+      ]
+    },
+    {
+      "id": "B-GRAM-POSS",
+      "category": "grammar",
+      "level": "A1",
+      "status": "available",
+      "title": { "fr": "Adjectifs possessifs", "en": "Possessive adjectives", "ar": "صفات الملكية" },
+      "summary": { "fr": "Article + affixe : ⲡⲁ- « mon », ⲧⲁ- « ma », ⲛⲁ- « mes »…", "en": "Article + affix: ⲡⲁ- “my (m.)”, ⲧⲁ- “my (f.)”, ⲛⲁ- “my (pl.)”…", "ar": "أداة + ضمير: ⲡⲁ- «بتاعي»، ⲧⲁ- «بتاعتي»، ⲛⲁ- «بتوعي»…" },
+      "source_refs": ["MALLON_GRAMMAIRE"],
+      "sections": [
+        {
+          "text": { "fr": "Les possessifs sont formés de l'article et des pronoms affixes. L'article s'accorde avec l'objet possédé ; l'affixe indique le possesseur.", "en": "Possessives are made of the article and the affix pronouns. The article agrees with the thing possessed; the affix marks the possessor.", "ar": "صفات الملكية متكونة من الأداة والضماير المتصلة. الأداة بتتفق مع الحاجة المملوكة؛ والضمير بيبين صاحبها." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§74-75, p. 36" }
+        },
+        {
+          "text": { "fr": "Quand l'objet possédé est indéterminé, on emploie l'article indéfini avec ⲛ̀ⲧⲉ- / ⲛ̀ⲧ⸗ : ⲟⲩ-ⲏⲓ ⲛ̀ⲧⲁϥ « une maison à lui », alors que ⲡⲉϥ-ⲏⲓ signifie « sa maison ».", "en": "When the thing possessed is indefinite, the indefinite article is used with ⲛ̀ⲧⲉ- / ⲛ̀ⲧ⸗: ⲟⲩ-ⲏⲓ ⲛ̀ⲧⲁϥ “a house of his”, whereas ⲡⲉϥ-ⲏⲓ means “his house”.", "ar": "لما الحاجة المملوكة تكون نكرة، بنستعمل أداة التنكير مع ⲛ̀ⲧⲉ- / ⲛ̀ⲧ⸗: ⲟⲩ-ⲏⲓ ⲛ̀ⲧⲁϥ «بيت ليه»، لكن ⲡⲉϥ-ⲏⲓ معناها «بيته»." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§76, p. 36" }
+        },
+        {
+          "text": { "fr": "Devant un nombre, le possessif masculin indique le jour, sans que le mot « jour » soit exprimé : ⲡⲉϥϣⲟⲙⲧ « le troisième jour ».", "en": "Before a numeral the masculine possessive gives the day, without the word “day”: ⲡⲉϥϣⲟⲙⲧ “the third day”.", "ar": "قبل العدد، صفة الملكية المذكر بتدل على اليوم من غير ما تتقال كلمة «يوم»: ⲡⲉϥϣⲟⲙⲧ «اليوم التالت»." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§78, p. 37" }
+        }
+      ],
+      "paradigms": [
+        {
+          "id": "B-GRAM-POSS-ADJ",
+          "title": { "fr": "Adjectifs possessifs", "en": "Possessive adjectives", "ar": "صفات الملكية" },
+          "rows": [
+            { "key": "p1s", "label": "p1s" }, { "key": "p2m", "label": "p2m" }, { "key": "p2f", "label": "p2f" }, { "key": "p3m", "label": "p3m" },
+            { "key": "p3f", "label": "p3f" }, { "key": "p1p", "label": "p1p" }, { "key": "p2p", "label": "p2p" }, { "key": "p3p", "label": "p3p" }
+          ],
+          "cols": [{ "key": "m", "label": "obj_m" }, { "key": "f", "label": "obj_f" }, { "key": "pl", "label": "obj_pl" }],
+          "cells": [
+            { "key": "p1s.m", "form": "ⲡⲁ-" }, { "key": "p1s.f", "form": "ⲧⲁ-" }, { "key": "p1s.pl", "form": "ⲛⲁ-" },
+            { "key": "p2m.m", "form": "ⲡⲉⲕ-" }, { "key": "p2m.f", "form": "ⲧⲉⲕ-" }, { "key": "p2m.pl", "form": "ⲛⲉⲕ-" },
+            { "key": "p2f.m", "form": "ⲡⲉ-" }, { "key": "p2f.f", "form": "ⲧⲉ-" }, { "key": "p2f.pl", "form": "ⲛⲉ-" },
+            { "key": "p3m.m", "form": "ⲡⲉϥ-" }, { "key": "p3m.f", "form": "ⲧⲉϥ-" }, { "key": "p3m.pl", "form": "ⲛⲉϥ-" },
+            { "key": "p3f.m", "form": "ⲡⲉⲥ-" }, { "key": "p3f.f", "form": "ⲧⲉⲥ-" }, { "key": "p3f.pl", "form": "ⲛⲉⲥ-" },
+            { "key": "p1p.m", "form": "ⲡⲉⲛ-" }, { "key": "p1p.f", "form": "ⲧⲉⲛ-" }, { "key": "p1p.pl", "form": "ⲛⲉⲛ-" },
+            { "key": "p2p.m", "form": "ⲡⲉⲧⲉⲛ-" }, { "key": "p2p.f", "form": "ⲧⲉⲧⲉⲛ-" }, { "key": "p2p.pl", "form": "ⲛⲉⲧⲉⲛ-" },
+            { "key": "p3p.m", "form": "ⲡⲟⲩ-" }, { "key": "p3p.f", "form": "ⲧⲟⲩ-" }, { "key": "p3p.pl", "form": "ⲛⲟⲩ-" }
+          ],
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§74, p. 36" }
+        }
+      ],
+      "recognitions": [
+        { "coptic": "ⲡⲁ-ⲏⲓ", "paradigm": "B-GRAM-POSS-ADJ", "cell": "p1s.m", "gloss": { "fr": "ma maison", "en": "my house", "ar": "بيتي" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§75, p. 36" } },
+        { "coptic": "ⲛⲁ-ⲓⲟϯ", "paradigm": "B-GRAM-POSS-ADJ", "cell": "p1s.pl", "gloss": { "fr": "mes pères", "en": "my fathers", "ar": "آبائي" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§75, p. 36" } },
+        { "coptic": "ⲧⲉⲕ-ⲙⲁⲩ", "paradigm": "B-GRAM-POSS-ADJ", "cell": "p2m.f", "gloss": { "fr": "ta mère", "en": "your mother", "ar": "أمك" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§75, p. 36" } },
+        { "coptic": "ⲛⲉⲛ-ⲓⲟϯ", "paradigm": "B-GRAM-POSS-ADJ", "cell": "p1p.pl", "gloss": { "fr": "nos pères", "en": "our fathers", "ar": "آباءنا" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§75, p. 36" } },
+        { "coptic": "ⲡⲉϥ-ⲏⲓ", "paradigm": "B-GRAM-POSS-ADJ", "cell": "p3m.m", "gloss": { "fr": "sa maison (à lui)", "en": "his house", "ar": "بيته" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§76, p. 36" } },
+        { "coptic": "ⲡⲉϥϣⲟⲙⲧ", "paradigm": "B-GRAM-POSS-ADJ", "cell": "p3m.m", "gloss": { "fr": "le troisième jour", "en": "the third day", "ar": "اليوم التالت" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§78, p. 37" } }
+      ],
+      "examples": [
+        { "coptic": "ⲁⲛⲟⲕ ⲟⲩϭⲣⲟⲙⲡⲓ ⲛ̀ⲧⲁⲕ", "translation": { "fr": "« je suis une de tes colombes »", "en": "“I am one of your doves”", "ar": "«أنا حمامة من حماماتك»" }, "attestation": "OSE. 114", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§76, p. 37" } },
+        { "coptic": "ⲡⲓⲱⲙⲥ ⲛ̀ⲧⲁϥ", "translation": { "fr": "« son baptême »", "en": "“his baptism”", "ar": "«معموديته»" }, "attestation": "Mt. 3, 7", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§77, p. 37" } },
+        { "coptic": "ⲛⲏ ⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲁⲕ", "translation": { "fr": "« tes saints »", "en": "“your saints”", "ar": "«قديسينك»" }, "attestation": "Th. 129", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§77, p. 37" } }
+      ]
+    },
+    {
+      "id": "B-GRAM-DEM",
+      "category": "grammar",
+      "level": "A1",
+      "status": "available",
+      "title": { "fr": "Démonstratifs", "en": "Demonstratives", "ar": "أسماء الإشارة" },
+      "summary": { "fr": "ⲡⲁⲓ- « ce », ⲫⲁⲓ « celui-ci », ⲫⲏ « celui-là »…", "en": "ⲡⲁⲓ- “this”, ⲫⲁⲓ “this one”, ⲫⲏ “that one”…", "ar": "ⲡⲁⲓ- «ده»، ⲫⲁⲓ «ده (ضمير)»، ⲫⲏ «داك»…" },
+      "source_refs": ["MALLON_GRAMMAIRE"],
+      "sections": [
+        {
+          "text": { "fr": "Pour les objets rapprochés : adjectif ⲡⲁⲓ- « ce », ⲧⲁⲓ- « cette », ⲛⲁⲓ- « ces » ; pronom ⲫⲁⲓ « celui-ci », ⲑⲁⲓ « celle-ci », ⲛⲁⲓ « ceux-ci ».", "en": "For near objects: adjective ⲡⲁⲓ- “this (m.)”, ⲧⲁⲓ- “this (f.)”, ⲛⲁⲓ- “these”; pronoun ⲫⲁⲓ “this one (m.)”, ⲑⲁⲓ “this one (f.)”, ⲛⲁⲓ “these ones”.", "ar": "للحاجات القريبة: الصفة ⲡⲁⲓ- «ده»، ⲧⲁⲓ- «دي»، ⲛⲁⲓ- «دول»؛ والضمير ⲫⲁⲓ «ده»، ⲑⲁⲓ «دي»، ⲛⲁⲓ «دول»." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§92, p. 42" }
+        },
+        {
+          "text": { "fr": "ⲫⲁⲓ, ⲑⲁⲓ, ⲛⲁⲓ suivent souvent un nom pour renforcer un possessif ou un démonstratif ; ⲫⲁⲓ et ⲛⲁⲓ tiennent lieu de neutre (« cela », « ces choses »).", "en": "ⲫⲁⲓ, ⲑⲁⲓ, ⲛⲁⲓ often follow a noun to reinforce a possessive or demonstrative; ⲫⲁⲓ and ⲛⲁⲓ serve as neuter (“that”, “these things”).", "ar": "ⲫⲁⲓ و ⲑⲁⲓ و ⲛⲁⲓ كتير بييجوا بعد الاسم عشان يقوّوا صفة الملكية أو الإشارة؛ و ⲫⲁⲓ و ⲛⲁⲓ بيقوموا مقام المحايد («ده»، «الحاجات دي»)." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§93-94, p. 43" }
+        },
+        {
+          "text": { "fr": "Pour les objets éloignés : pronom ⲫⲏ « celui-là », ⲑⲏ « celle-là », ⲛⲏ « ceux-là ». L'adjectif ne s'est pas conservé : on emploie les expressions invariables ⲉⲧⲧⲏ et ⲉⲧⲉⲙⲙⲁⲩ après un nom muni de l'article.", "en": "For distant objects: pronoun ⲫⲏ “that one (m.)”, ⲑⲏ “that one (f.)”, ⲛⲏ “those”. The adjective has not survived: the invariable expressions ⲉⲧⲧⲏ and ⲉⲧⲉⲙⲙⲁⲩ are used after a noun with the article.", "ar": "للحاجات البعيدة: الضمير ⲫⲏ «داك»، ⲑⲏ «ديك»، ⲛⲏ «دوكهم». الصفة ما اتحفظتش: بنستعمل التعبيرين الثابتين ⲉⲧⲧⲏ و ⲉⲧⲉⲙⲙⲁⲩ بعد اسم معاه أداة." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§95, p. 43" }
+        }
+      ],
+      "paradigms": [
+        {
+          "id": "B-GRAM-DEM-FORMS",
+          "title": { "fr": "Démonstratifs", "en": "Demonstratives", "ar": "أسماء الإشارة" },
+          "rows": [{ "key": "adj", "label": "dem_adj" }, { "key": "near", "label": "dem_near" }, { "key": "far", "label": "dem_far" }],
+          "cols": [{ "key": "m", "label": "masc" }, { "key": "f", "label": "fem" }, { "key": "pl", "label": "plur" }],
+          "cells": [
+            { "key": "adj.m", "form": "ⲡⲁⲓ-" }, { "key": "adj.f", "form": "ⲧⲁⲓ-" }, { "key": "adj.pl", "form": "ⲛⲁⲓ-" },
+            { "key": "near.m", "form": "ⲫⲁⲓ" }, { "key": "near.f", "form": "ⲑⲁⲓ" }, { "key": "near.pl", "form": "ⲛⲁⲓ" },
+            { "key": "far.m", "form": "ⲫⲏ" }, { "key": "far.f", "form": "ⲑⲏ" }, { "key": "far.pl", "form": "ⲛⲏ" }
+          ],
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§92, §95, p. 42-43" }
+        }
+      ],
+      "recognitions": [
+        { "coptic": "ⲡⲁⲓ-ⲉϩⲟⲟⲩ", "paradigm": "B-GRAM-DEM-FORMS", "cell": "adj.m", "gloss": { "fr": "ce jour", "en": "this day", "ar": "اليوم ده" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§92, p. 42" } },
+        { "coptic": "ⲧⲁⲓⲣⲟⲙⲡⲓ", "paradigm": "B-GRAM-DEM-FORMS", "cell": "adj.f", "gloss": { "fr": "cette année", "en": "this year", "ar": "السنة دي" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§92, p. 42" } },
+        { "coptic": "ⲛⲁⲓⲣⲱⲙⲓ", "paradigm": "B-GRAM-DEM-FORMS", "cell": "adj.pl", "gloss": { "fr": "ces hommes", "en": "these men", "ar": "الرجالة دول" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§92, p. 42" } },
+        { "coptic": "ⲛⲁⲓϩⲓⲟⲙⲓ", "paradigm": "B-GRAM-DEM-FORMS", "cell": "adj.pl", "gloss": { "fr": "ces femmes", "en": "these women", "ar": "الستات دول" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§92, p. 42" } },
+        { "coptic": "ⲫⲁⲓ ⲡⲉ ⲡⲁϣⲏⲣⲓ", "paradigm": "B-GRAM-DEM-FORMS", "cell": "near.m", "gloss": { "fr": "« celui-ci est mon fils »", "en": "“this is my son”", "ar": "«ده ابني»" }, "attestation": "Mt. 3, 17", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§92, p. 42" } }
+      ],
+      "examples": [
+        { "coptic": "ⲡⲁϣⲏⲣⲓ ⲫⲁⲓ", "translation": { "fr": "« mon fils que voici »", "en": "“this son of mine”", "ar": "«ابني ده»" }, "attestation": "Luc 15, 24", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§93, p. 43" } },
+        { "coptic": "ⲛⲁⲓ ⲉϥϫⲱ ⲙ̀ⲙⲱⲟⲩ", "translation": { "fr": "« disant ces choses »", "en": "“saying these things”", "ar": "«وهو بيقول الحاجات دي»" }, "attestation": "Jean 8, 30", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§94, p. 43" } },
+        { "coptic": "ⲡⲓⲉϩⲟⲟⲩ ⲉⲧⲧⲏ", "translation": { "fr": "« ce jour-là »", "en": "“that day”", "ar": "«اليوم داك»" }, "attestation": "Mt. 26, 29", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§95, p. 43" } },
+        { "coptic": "ϧⲉⲛ ⲡⲓⲥⲏⲟⲩ ⲉⲧⲉⲙⲙⲁⲩ", "translation": { "fr": "« en ce temps-là »", "en": "“at that time”", "ar": "«في الوقت داك»" }, "attestation": "Mt. 14, 1", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§95, p. 43" } }
+      ]
+    },
+    {
+      "id": "B-CONJ-PRES1",
+      "category": "conjugation",
+      "level": "A2",
+      "status": "available",
+      "title": { "fr": "Premier présent", "en": "First present", "ar": "المضارع الأول" },
+      "summary": { "fr": "Le présent d'actualité : ϯ, ⲕ, ⲧⲉ, ϥ, ⲥ… + verbe.", "en": "The present of actuality: ϯ, ⲕ, ⲧⲉ, ϥ, ⲥ… + verb.", "ar": "مضارع اللحظة: ϯ، ⲕ، ⲧⲉ، ϥ، ⲥ… + الفعل." },
+      "source_refs": ["MALLON_GRAMMAIRE"],
+      "sections": [
+        {
+          "text": { "fr": "Le premier présent indique une action ou un fait qui a lieu au moment où l'on parle. Le sujet est un pronom affixe ; si le sujet est un nom, il précède directement le verbe, sans auxiliaire.", "en": "The first present expresses an action or fact happening at the moment of speaking. The subject is an affix pronoun; if the subject is a noun, it comes directly before the verb, with no auxiliary.", "ar": "المضارع الأول بيعبر عن فعل أو حاجة بتحصل وقت الكلام. الفاعل ضمير متصل؛ ولو الفاعل اسم، بييجي قبل الفعل على طول من غير فعل مساعد." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§236, p. 107" }
+        },
+        {
+          "text": { "fr": "L'ancien auxiliaire ⲧⲉ ne survit qu'aux personnes ϯ (de ⲧ et ⲓ), ⲧⲉ, ⲧⲉⲛ, ⲧⲉⲧⲉⲛ. Devant ⲛ et ⲟⲩ, l'affixe ⲕ de la 2e pers. masc. devient ordinairement ⲭ : ⲭⲟⲩⲁⲃ « tu es saint ».", "en": "The old auxiliary ⲧⲉ survives only in the persons ϯ (from ⲧ and ⲓ), ⲧⲉ, ⲧⲉⲛ, ⲧⲉⲧⲉⲛ. Before ⲛ and ⲟⲩ, the 2nd masc. affix ⲕ usually becomes ⲭ: ⲭⲟⲩⲁⲃ “you are holy”.", "ar": "الفعل المساعد القديم ⲧⲉ فاضل بس في ϯ (من ⲧ و ⲓ) و ⲧⲉ و ⲧⲉⲛ و ⲧⲉⲧⲉⲛ. وقبل ⲛ و ⲟⲩ، ضمير المخاطَب ⲕ عادةً بيبقى ⲭ: ⲭⲟⲩⲁⲃ «إنت قدوس»." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§234, p. 106" }
+        },
+        {
+          "text": { "fr": "Négation : ⲛ̀ … ⲁⲛ ou … ⲁⲛ.", "en": "Negation: ⲛ̀ … ⲁⲛ or … ⲁⲛ.", "ar": "النفي: ⲛ̀ … ⲁⲛ أو … ⲁⲛ." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§233, p. 102" }
+        }
+      ],
+      "paradigms": [
+        {
+          "id": "B-CONJ-PRES1-FORMS",
+          "title": { "fr": "Premier présent : sujet pronominal", "en": "First present: pronominal subject", "ar": "المضارع الأول: الفاعل ضمير" },
+          "cells": [
+            { "key": "p1s", "form": "ϯ", "label": "p1s" },
+            { "key": "p2m", "form": "ⲕ", "label": "p2m" },
+            { "key": "p2f", "form": "ⲧⲉ", "label": "p2f" },
+            { "key": "p3m", "form": "ϥ", "label": "p3m" },
+            { "key": "p3f", "form": "ⲥ", "label": "p3f" },
+            { "key": "p1p", "form": "ⲧⲉⲛ", "label": "p1p" },
+            { "key": "p2p", "form": "ⲧⲉⲧⲉⲛ", "label": "p2p" },
+            { "key": "p3p", "form": "ⲥⲉ", "label": "p3p" }
+          ],
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§233, p. 102 (tableau synoptique)" }
+        }
+      ],
+      "recognitions": [
+        { "coptic": "ϯϫⲱ ⲙ̀ⲙⲟⲥ ⲛⲁⲕ ⲧⲱⲛⲕ", "paradigm": "B-CONJ-PRES1-FORMS", "cell": "p1s", "gloss": { "fr": "« je te le dis, lève-toi »", "en": "“I say to you, arise”", "ar": "«بقولك قوم»" }, "attestation": "Luc 7, 14", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§236, p. 107" } },
+        { "coptic": "ⲧⲉⲥⲙⲁⲣⲱⲟⲩⲧ ⲛ̀ⲑⲟ ϧⲉⲛ ⲛⲓϩⲓⲟⲙⲓ", "paradigm": "B-CONJ-PRES1-FORMS", "cell": "p2f", "gloss": { "fr": "« tu es bénie entre les femmes »", "en": "“blessed are you among women”", "ar": "«مباركة إنتي في الستات»" }, "attestation": "Luc 1, 42", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§236, p. 107" } },
+        { "coptic": "ϯ ⲛⲉⲙⲱⲧⲉⲛ", "paradigm": "B-CONJ-PRES1-FORMS", "cell": "p1s", "gloss": { "fr": "« je suis avec vous »", "en": "“I am with you”", "ar": "«أنا معاكم»" }, "attestation": "Jean 14, 9", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§236, p. 107" } },
+        { "coptic": "ⲭⲟⲩⲁⲃ", "paradigm": "B-CONJ-PRES1-FORMS", "cell": "p2m", "gloss": { "fr": "« tu es saint »", "en": "“you are holy”", "ar": "«إنت قدوس»" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§234, p. 106" } }
+      ],
+      "examples": [
+        { "coptic": "ⲫⲓⲱⲧ ⲙⲉⲓ ⲙ̀ⲡϣⲏⲣⲓ", "translation": { "fr": "« le Père aime le Fils »", "en": "“the Father loves the Son”", "ar": "«الآب بيحب الابن»" }, "attestation": "Jean 3, 35", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§236, p. 107" } },
+        { "coptic": "ⲧⲉϥⲙⲉⲑⲙⲏⲓ ϣⲟⲡ ϣⲁ ⲉⲛⲉϩ", "translation": { "fr": "« sa justice demeure jusqu'à l'éternité »", "en": "“his righteousness endures forever”", "ar": "«بره دايم للأبد»" }, "attestation": "Ps. 111, 3", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§236, p. 107" } }
+      ]
+    },
+    {
+      "id": "B-CONJ-FUT1",
+      "category": "conjugation",
+      "level": "A2",
+      "status": "available",
+      "title": { "fr": "Premier futur", "en": "First future", "ar": "المستقبل الأول" },
+      "summary": { "fr": "Premier présent + ⲛⲁ- : ϯⲛⲁ-, ⲭⲛⲁ-, ⲧⲉⲣⲁ-…", "en": "First present + ⲛⲁ-: ϯⲛⲁ-, ⲭⲛⲁ-, ⲧⲉⲣⲁ-…", "ar": "المضارع الأول + ⲛⲁ-: ϯⲛⲁ-، ⲭⲛⲁ-، ⲧⲉⲣⲁ-…" },
+      "source_refs": ["MALLON_GRAMMAIRE"],
+      "sections": [
+        {
+          "text": { "fr": "Les futurs se forment des présents correspondants par l'ajout de ⲛⲁ-, forme abrégée du verbe ⲛⲟⲩⲓ « être sur le point de, aller ». La 2e pers. fém. sing. ⲧⲉⲣⲁ est de formation spéciale.", "en": "Futures are formed from the matching presents by adding ⲛⲁ-, short form of the verb ⲛⲟⲩⲓ “to be about to, to go”. The 2nd sg. fem. ⲧⲉⲣⲁ has a special formation.", "ar": "المستقبل بيتعمل من المضارع اللي يقابله بزيادة ⲛⲁ-، وهي الشكل المختصر للفعل ⲛⲟⲩⲓ «قرب يعمل، راح». والمخاطَبة المفردة ⲧⲉⲣⲁ ليها تكوين خاص." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§240, p. 110" }
+        },
+        {
+          "text": { "fr": "Un nom sujet se place devant ⲛⲁ-, comme au premier présent. Négation : ⲛ̀ … ⲁⲛ ou … ⲁⲛ.", "en": "A noun subject stands before ⲛⲁ-, as in the first present. Negation: ⲛ̀ … ⲁⲛ or … ⲁⲛ.", "ar": "الفاعل لو اسم بييجي قبل ⲛⲁ-، زي المضارع الأول. النفي: ⲛ̀ … ⲁⲛ أو … ⲁⲛ." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§233, p. 102 ; §240, p. 110" }
+        }
+      ],
+      "paradigms": [
+        {
+          "id": "B-CONJ-FUT1-FORMS",
+          "title": { "fr": "Premier futur", "en": "First future", "ar": "المستقبل الأول" },
+          "cells": [
+            { "key": "p1s", "form": "ϯⲛⲁ", "label": "p1s" },
+            { "key": "p2m", "form": "ⲭⲛⲁ", "label": "p2m" },
+            { "key": "p2f", "form": "ⲧⲉⲣⲁ", "label": "p2f" },
+            { "key": "p3m", "form": "ϥⲛⲁ", "label": "p3m" },
+            { "key": "p3f", "form": "ⲥⲛⲁ", "label": "p3f" },
+            { "key": "p1p", "form": "ⲧⲉⲛⲛⲁ", "label": "p1p" },
+            { "key": "p2p", "form": "ⲧⲉⲧⲉⲛⲛⲁ", "label": "p2p" },
+            { "key": "p3p", "form": "ⲥⲉⲛⲁ", "label": "p3p" },
+            { "key": "noun", "form": "ⲛⲁ", "label": "noun" }
+          ],
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§233, p. 102 (tableau synoptique)" }
+        }
+      ],
+      "recognitions": [
+        { "coptic": "ϯⲛⲁ-ⲧⲁⲕⲱⲟⲩ ⲛⲉⲙ ⲡⲓⲕⲁϩⲓ", "paradigm": "B-CONJ-FUT1-FORMS", "cell": "p1s", "gloss": { "fr": "« je les perdrai avec la terre »", "en": "“I will destroy them with the earth”", "ar": "«هاهلكهم مع الأرض»" }, "attestation": "Gen. 6, 13", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§240, p. 110" } },
+        { "coptic": "ⲧⲉⲧⲉⲛⲛⲁ-ⲕⲱϯ ⲛ̀ⲥⲱⲓ", "paradigm": "B-CONJ-FUT1-FORMS", "cell": "p2p", "gloss": { "fr": "« vous me chercherez »", "en": "“you will seek me”", "ar": "«هتدوروا عليا»" }, "attestation": "Jean 8, 21", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§240, p. 110" } },
+        { "coptic": "ⲭⲛⲁⲃⲱⲗ", "paradigm": "B-CONJ-FUT1-FORMS", "cell": "p2m", "gloss": { "fr": "« tu délieras »", "en": "“you will loose”", "ar": "«هتحل»" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§234, p. 106" } },
+        { "coptic": "ⲡϭⲟⲓⲥ ⲛⲁϣⲓⲛⲓ ⲉⲣⲱⲧⲉⲛ", "paradigm": "B-CONJ-FUT1-FORMS", "cell": "noun", "gloss": { "fr": "« le Seigneur vous visitera »", "en": "“the Lord will visit you”", "ar": "«الرب هيفتقدكم»" }, "attestation": "Ex. 13, 19", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§240, p. 110" } }
+      ],
+      "examples": [
+        { "coptic": "ⲧⲉⲧⲉⲛⲛⲁ-ⲕⲱϯ ⲛ̀ⲥⲱⲓ ⲟⲩⲟϩ ⲧⲉⲧⲉⲛⲛⲁ-ϫⲉⲙⲧ ⲁⲛ", "translation": { "fr": "« vous me chercherez et vous ne me trouverez pas »", "en": "“you will seek me and you will not find me”", "ar": "«هتدوروا عليا ومش هتلاقوني»" }, "attestation": "Jean 8, 21", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§240, p. 110" } },
+        { "coptic": "ⲫⲁⲣⲁⲱ ⲛⲁⲥⲱⲧⲉⲙ ⲛ̀ⲥⲁ ⲑⲏⲛⲟⲩ ⲁⲛ", "translation": { "fr": "« Pharaon ne vous écoutera pas »", "en": "“Pharaoh will not listen to you”", "ar": "«فرعون مش هيسمعلكم»" }, "attestation": "Ex. 11, 9", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§240, p. 110" } }
+      ]
+    },
+    {
+      "id": "B-CONJ-PERF1",
+      "category": "conjugation",
+      "level": "A2",
+      "status": "available",
+      "title": { "fr": "Premier parfait et sa négation", "en": "First perfect and its negation", "ar": "الماضي الأول ونفيه" },
+      "summary": { "fr": "ⲁ- / ⲁ⸗ : action complètement passée ; négation ⲙ̀ⲡⲉ- / ⲙ̀ⲡ⸗.", "en": "ⲁ- / ⲁ⸗: completed past action; negation ⲙ̀ⲡⲉ- / ⲙ̀ⲡ⸗.", "ar": "ⲁ- / ⲁ⸗: فعل خلص في الماضي؛ النفي ⲙ̀ⲡⲉ- / ⲙ̀ⲡ⸗." },
+      "source_refs": ["MALLON_GRAMMAIRE"],
+      "sections": [
+        {
+          "text": { "fr": "Le premier parfait indique une action complètement passée ; c'est le temps historique. Avec un nom sujet, on emploie ⲁ- devant le nom, et l'auxiliaire peut être répété avec l'affixe.", "en": "The first perfect expresses a fully completed action; it is the narrative tense. With a noun subject, ⲁ- stands before the noun, and the auxiliary may be repeated with the affix.", "ar": "الماضي الأول بيعبر عن فعل خلص خالص؛ وده زمن الحكي. ولو الفاعل اسم، بنحط ⲁ- قبل الاسم، وممكن الفعل المساعد يتكرر مع الضمير." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§244, p. 113" }
+        },
+        {
+          "text": { "fr": "Ses formes se confondent avec celles du second présent ; le contexte permet de les distinguer. À la 2e pers. plur., on trouve souvent ⲁⲣⲉⲧⲉⲛ pour ⲁⲧⲉⲧⲉⲛ. La négation se fait par l'auxiliaire ⲙ̀ⲡⲉ- / ⲙ̀ⲡ⸗.", "en": "Its forms coincide with those of the second present; context tells them apart. In the 2nd pl. ⲁⲣⲉⲧⲉⲛ is often found for ⲁⲧⲉⲧⲉⲛ. Negation uses the auxiliary ⲙ̀ⲡⲉ- / ⲙ̀ⲡ⸗.", "ar": "أشكاله بتتشابه مع المضارع التاني؛ والسياق بيفرّق بينهم. وفي المخاطَبين كتير بنلاقي ⲁⲣⲉⲧⲉⲛ بدل ⲁⲧⲉⲧⲉⲛ. والنفي بالفعل المساعد ⲙ̀ⲡⲉ- / ⲙ̀ⲡ⸗." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§244, p. 113" }
+        }
+      ],
+      "paradigms": [
+        {
+          "id": "B-CONJ-PERF1-FORMS",
+          "title": { "fr": "Premier parfait", "en": "First perfect", "ar": "الماضي الأول" },
+          "rows": [
+            { "key": "p1s", "label": "p1s" }, { "key": "p2m", "label": "p2m" }, { "key": "p2f", "label": "p2f" }, { "key": "p3m", "label": "p3m" },
+            { "key": "p3f", "label": "p3f" }, { "key": "p1p", "label": "p1p" }, { "key": "p2p", "label": "p2p" }, { "key": "p3p", "label": "p3p" },
+            { "key": "noun", "label": "noun" }
+          ],
+          "cols": [{ "key": "aff", "label": "aff" }, { "key": "neg", "label": "neg" }],
+          "cells": [
+            { "key": "p1s.aff", "form": "ⲁⲓ" }, { "key": "p1s.neg", "form": "ⲙ̀ⲡⲓ" },
+            { "key": "p2m.aff", "form": "ⲁⲕ" }, { "key": "p2m.neg", "form": "ⲙ̀ⲡⲉⲕ" },
+            { "key": "p2f.aff", "form": "ⲁⲣⲉ" }, { "key": "p2f.neg", "form": "ⲙ̀ⲡⲉ" },
+            { "key": "p3m.aff", "form": "ⲁϥ" }, { "key": "p3m.neg", "form": "ⲙ̀ⲡⲉϥ" },
+            { "key": "p3f.aff", "form": "ⲁⲥ" }, { "key": "p3f.neg", "form": "ⲙ̀ⲡⲉⲥ" },
+            { "key": "p1p.aff", "form": "ⲁⲛ" }, { "key": "p1p.neg", "form": "ⲙ̀ⲡⲉⲛ" },
+            { "key": "p2p.aff", "form": "ⲁⲧⲉⲧⲉⲛ", "variants": ["ⲁⲣⲉⲧⲉⲛ"] }, { "key": "p2p.neg", "form": "ⲙ̀ⲡⲉⲧⲉⲛ" },
+            { "key": "p3p.aff", "form": "ⲁⲩ" }, { "key": "p3p.neg", "form": "ⲙ̀ⲡⲟⲩ" },
+            { "key": "noun.aff", "form": "ⲁ-" }, { "key": "noun.neg", "form": "ⲙ̀ⲡⲉ-" }
+          ],
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§233, p. 104 (tableau synoptique)" }
+        }
+      ],
+      "recognitions": [
+        { "coptic": "ⲁϥⲱⲣⲕ ⲛ̀ϫⲉ ⲡϭⲟⲓⲥ", "paradigm": "B-CONJ-PERF1-FORMS", "cell": "p3m.aff", "gloss": { "fr": "« le Seigneur a juré »", "en": "“the Lord has sworn”", "ar": "«الرب حلف»" }, "attestation": "Ps. 109, 5", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§244, p. 113" } },
+        { "coptic": "ⲟⲩⲟϩ ⲁ ⲫⲛⲟⲩϯ ⲑⲁⲙⲓⲟ ⲙ̀ⲡⲓⲣⲱⲙⲓ", "paradigm": "B-CONJ-PERF1-FORMS", "cell": "noun.aff", "gloss": { "fr": "« et Dieu créa l'homme »", "en": "“and God created man”", "ar": "«وربنا خلق الإنسان»" }, "attestation": "Gen. 1, 27", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§244, p. 113" } },
+        { "coptic": "ⲙ̀ⲡⲉϥⲟⲩⲱϣ ⲉ-ⲟⲩⲟⲣⲡⲟⲩ ⲉⲃⲟⲗ", "paradigm": "B-CONJ-PERF1-FORMS", "cell": "p3m.neg", "gloss": { "fr": "« il ne voulut pas les renvoyer »", "en": "“he would not let them go”", "ar": "«ما رضيش يمشيهم»" }, "attestation": "Ex. 10, 27", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§244, p. 113" } },
+        { "coptic": "ⲙ̀ⲡⲉ ϩⲗⲓ ⲛⲁⲩ ⲉ ⲡⲉϥⲥⲟⲛ", "paradigm": "B-CONJ-PERF1-FORMS", "cell": "noun.neg", "gloss": { "fr": "« personne ne vit son frère »", "en": "“no one saw his brother”", "ar": "«محدش شاف أخوه»" }, "attestation": "Ex. 10, 23", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§244, p. 113" } }
+      ],
+      "examples": [
+        { "coptic": "ⲁϥⲛⲁⲩ ⲉⲣⲟϥ ⲟⲩⲟϩ ⲁϥⲉⲣϣⲫⲏⲣⲓ ⲉⲙⲁϣⲱ", "translation": { "fr": "« il le vit et s'étonna beaucoup »", "en": "“he saw him and wondered greatly”", "ar": "«شافه واستغرب جدًا»" }, "attestation": "Kef. 335", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§244, p. 113" } }
+      ]
+    },
+    {
+      "id": "B-CONJ-IMP",
+      "category": "conjugation",
+      "level": "A2",
+      "status": "available",
+      "title": { "fr": "Impératif", "en": "Imperative", "ar": "الأمر" },
+      "summary": { "fr": "L'infinitif sert d'impératif ; quelques verbes prennent ⲁ- ; impératifs particuliers.", "en": "The infinitive serves as imperative; some verbs take ⲁ-; special imperatives.", "ar": "المصدر بيستعمل كأمر؛ شوية أفعال بتاخد ⲁ-؛ وفيه أوامر خاصة." },
+      "source_refs": ["MALLON_GRAMMAIRE"],
+      "sections": [
+        {
+          "text": { "fr": "Pour la plupart des verbes, l'infinitif sert d'impératif, au singulier comme au pluriel. Quelques verbes prennent ⲁ devant l'infinitif. Les verbes ⲓⲛⲓ, ⲓⲣⲓ, ⲱⲗⲓ forment leur impératif ⲁⲛⲓⲟⲩⲓ, ⲁⲣⲓⲟⲩⲓ, ⲁⲗⲓⲟⲩⲓ.", "en": "For most verbs the infinitive serves as imperative, singular and plural. A few verbs take ⲁ before the infinitive. The verbs ⲓⲛⲓ, ⲓⲣⲓ, ⲱⲗⲓ form their imperative ⲁⲛⲓⲟⲩⲓ, ⲁⲣⲓⲟⲩⲓ, ⲁⲗⲓⲟⲩⲓ.", "ar": "في أغلب الأفعال المصدر بيستعمل كأمر للمفرد والجمع. وشوية أفعال بتاخد ⲁ قبل المصدر. والأفعال ⲓⲛⲓ و ⲓⲣⲓ و ⲱⲗⲓ أمرهم ⲁⲛⲓⲟⲩⲓ و ⲁⲣⲓⲟⲩⲓ و ⲁⲗⲓⲟⲩⲓ." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§254, p. 122" }
+        }
+      ],
+      "paradigms": [
+        {
+          "id": "B-CONJ-IMP-FORMS",
+          "title": { "fr": "Impératifs en ⲁ- et impératifs particuliers", "en": "Imperatives in ⲁ- and special imperatives", "ar": "أوامر بـ ⲁ- وأوامر خاصة" },
+          "cells": [
+            { "key": "vois", "form": "ⲁⲛⲁⲩ", "label": { "fr": "vois", "en": "see", "ar": "شوف" } },
+            { "key": "mange", "form": "ⲁⲟⲩⲱⲙ", "label": { "fr": "mange", "en": "eat", "ar": "كُل" } },
+            { "key": "dis", "form": "ⲁϫⲟⲥ", "label": { "fr": "dis", "en": "say", "ar": "قول" } },
+            { "key": "porte", "form": "ⲁⲛⲓⲟⲩⲓ", "label": { "fr": "porte", "en": "bring", "ar": "هات" } },
+            { "key": "fais", "form": "ⲁⲣⲓⲟⲩⲓ", "label": { "fr": "fais", "en": "do", "ar": "اعمل" } },
+            { "key": "ote", "form": "ⲁⲗⲓⲟⲩⲓ", "label": { "fr": "ôte", "en": "take away", "ar": "شيل" } },
+            { "key": "donne", "form": "ⲁⲩⲓⲥ", "label": { "fr": "donne", "en": "give", "ar": "إدّي" } },
+            { "key": "viens.m", "form": "ⲁⲙⲟⲩ", "label": { "fr": "viens (masc.)", "en": "come (masc.)", "ar": "تعالى (مذكر)" } },
+            { "key": "viens.f", "form": "ⲁⲙⲏ", "label": { "fr": "viens (fém.)", "en": "come (fem.)", "ar": "تعالي (مؤنث)" } },
+            { "key": "venez", "form": "ⲁⲙⲱⲓⲛⲓ", "label": { "fr": "venez", "en": "come (pl.)", "ar": "تعالوا" } }
+          ],
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§254, p. 122" }
+        }
+      ],
+      "recognitions": [],
+      "examples": [
+        { "coptic": "ⲙⲟϣⲓ ⲛ̀ⲥⲱⲓ", "translation": { "fr": "« suis-moi »", "en": "“follow me”", "ar": "«اتبعني»" }, "attestation": "Jean 1, 44", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§254, p. 122" } },
+        { "coptic": "ⲙⲉⲛⲣⲉ ⲡϭⲟⲓⲥ", "translation": { "fr": "« aime le Seigneur »", "en": "“love the Lord”", "ar": "«حب الرب»" }, "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§254, p. 122" } },
+        { "coptic": "ⲛⲁϩⲙⲉⲧ", "translation": { "fr": "« délivre-moi »", "en": "“deliver me”", "ar": "«نجيني»" }, "attestation": "Ms. 424", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§254, p. 122" } },
+        { "coptic": "ⲁⲩⲓⲥ ⲧⲉⲕϫⲓϫ", "translation": { "fr": "« donne ta main »", "en": "“give your hand”", "ar": "«هات إيدك»" }, "attestation": "Jean 20, 27", "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§254, p. 122" } }
+      ]
+    }
+  ]
+}

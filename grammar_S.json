@@ -1,0 +1,48 @@
+{
+  "$comment": "Sahidique : seules les remarques sahidiques de Mallon (scan vérifié sur image) sont exploitées pour l'instant. Les autres leçons restent « planned » tant qu'aucune source libre ou citable brièvement n'a été relevée (voir docs/PLAN.md).",
+  "dialect": "S",
+  "review": { "coptic": "source_checked", "fr": "machine_draft", "en": "machine_draft", "ar": "machine_draft" },
+  "labels": {},
+  "lessons": [
+    {
+      "id": "S-ORTH-VOWELS",
+      "category": "orthography",
+      "level": "A0",
+      "status": "available",
+      "title": { "fr": "ⲉ final et trait suscrit", "en": "Final ⲉ and the supralinear stroke", "ar": "ⲉ في الآخر والخط اللي فوق" },
+      "summary": { "fr": "Voyelle finale ⲉ ; ⲉ initial non écrit, marqué par un trait horizontal.", "en": "Final vowel ⲉ; unwritten initial ⲉ, marked by a horizontal stroke.", "ar": "الحرف المتحرك الأخير ⲉ؛ و ⲉ اللي في الأول مش مكتوبة وبتتعلّم بخط أفقي." },
+      "source_refs": ["MALLON_GRAMMAIRE"],
+      "sections": [
+        {
+          "text": { "fr": "En fin de mot, là où le bohaïrique écrit ⲓ bref, le sahidique écrit ⲉ : ϣⲏⲣⲉ « fils ».", "en": "At the end of a word, where Bohairic writes a short ⲓ, Sahidic writes ⲉ: ϣⲏⲣⲉ “son”.", "ar": "في آخر الكلمة، مكان ما البحيري بيكتب ⲓ قصيرة، الصعيدي بيكتب ⲉ: ϣⲏⲣⲉ «ابن»." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§9, p. 10 ; §19, p. 15" }
+        },
+        {
+          "text": { "fr": "En tête des mots, la voyelle auxiliaire ⲉ n'est généralement pas écrite ; devant ⲙ et ⲛ, le sahidique la marque par un trait horizontal : ⲙ̅, ⲛ̅.", "en": "At the start of words the auxiliary vowel ⲉ is usually not written; before ⲙ and ⲛ, Sahidic marks it with a horizontal stroke: ⲙ̅, ⲛ̅.", "ar": "في أول الكلمات، الحرف المساعد ⲉ غالبًا مش بيتكتب؛ وقبل ⲙ و ⲛ الصعيدي بيعلّمه بخط أفقي: ⲙ̅، ⲛ̅." },
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§20, p. 15" }
+        }
+      ],
+      "paradigms": [
+        {
+          "id": "S-ORTH-VOWELS-FORMS",
+          "title": { "fr": "Formes sahidiques citées par Mallon", "en": "Sahidic forms cited by Mallon", "ar": "أشكال صعيدي ذكرها Mallon" },
+          "cells": [
+            { "key": "fils", "form": "ϣⲏⲣⲉ", "label": { "fr": "fils", "en": "son", "ar": "ابن" } },
+            { "key": "douleur", "form": "ⲙ̅ⲕⲁϩ", "label": { "fr": "douleur", "en": "pain", "ar": "وجع" } },
+            { "key": "fidele", "form": "ⲛ̅ϩⲟⲧ", "label": { "fr": "être fidèle", "en": "to be faithful", "ar": "يكون أمين" } }
+          ],
+          "source": { "ref": "MALLON_GRAMMAIRE", "locator": "§9, p. 10 ; §20, p. 15" }
+        }
+      ],
+      "examples": []
+    },
+    { "id": "S-GRAM-ART", "category": "grammar", "level": "A1", "status": "planned", "title": { "fr": "L'article", "en": "The article", "ar": "الأداة" }, "summary": { "fr": "Bientôt disponible.", "en": "Coming soon.", "ar": "قريب." } },
+    { "id": "S-GRAM-PRON", "category": "grammar", "level": "A1", "status": "planned", "title": { "fr": "Pronoms personnels", "en": "Personal pronouns", "ar": "الضماير الشخصية" }, "summary": { "fr": "Bientôt disponible.", "en": "Coming soon.", "ar": "قريب." } },
+    { "id": "S-GRAM-POSS", "category": "grammar", "level": "A1", "status": "planned", "title": { "fr": "Adjectifs possessifs", "en": "Possessive adjectives", "ar": "صفات الملكية" }, "summary": { "fr": "Bientôt disponible.", "en": "Coming soon.", "ar": "قريب." } },
+    { "id": "S-GRAM-DEM", "category": "grammar", "level": "A1", "status": "planned", "title": { "fr": "Démonstratifs", "en": "Demonstratives", "ar": "أسماء الإشارة" }, "summary": { "fr": "Bientôt disponible.", "en": "Coming soon.", "ar": "قريب." } },
+    { "id": "S-CONJ-PRES1", "category": "conjugation", "level": "A2", "status": "planned", "title": { "fr": "Premier présent", "en": "First present", "ar": "المضارع الأول" }, "summary": { "fr": "Bientôt disponible.", "en": "Coming soon.", "ar": "قريب." } },
+    { "id": "S-CONJ-FUT1", "category": "conjugation", "level": "A2", "status": "planned", "title": { "fr": "Premier futur", "en": "First future", "ar": "المستقبل الأول" }, "summary": { "fr": "Bientôt disponible.", "en": "Coming soon.", "ar": "قريب." } },
+    { "id": "S-CONJ-PERF1", "category": "conjugation", "level": "A2", "status": "planned", "title": { "fr": "Premier parfait", "en": "First perfect", "ar": "الماضي الأول" }, "summary": { "fr": "Bientôt disponible.", "en": "Coming soon.", "ar": "قريب." } },
+    { "id": "S-CONJ-IMP", "category": "conjugation", "level": "A2", "status": "planned", "title": { "fr": "Impératif", "en": "Imperative", "ar": "الأمر" }, "summary": { "fr": "Bientôt disponible.", "en": "Coming soon.", "ar": "قريب." } }
+  ]
+}

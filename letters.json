@@ -1,0 +1,1503 @@
+{
+  "$comment": "Généré par tools/gen_letters.py — ne pas éditer à la main.",
+  "unicode_version_checked": "15.1.0",
+  "order_b_source": "Mallon, Grammaire copte, §1, p. 7",
+  "order_s_source": "Lambdin, Introduction to Sahidic Coptic",
+  "pron_systems": {
+    "GB": "Valeurs de Mallon §1 (prononciation de son époque), rattachées au parcours B",
+    "OB": "Aucune donnée sourcée",
+    "SAH": "Transcription conventionnelle de Lambdin"
+  },
+  "liturgical_names_source": "Noms traditionnels des lettres dans l'usage liturgique copte orthodoxe (à relire : statut to_review)",
+  "counts": {
+    "B": 31,
+    "S": 30
+  },
+  "letters": [
+    {
+      "grapheme": "ⲁ",
+      "codepoint": "U+2C81",
+      "upper_grapheme": "Ⲁ",
+      "upper_codepoint": "U+2C80",
+      "unicode_name": "COPTIC SMALL LETTER ALFA",
+      "origin": "greek",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 1,
+      "order_s": 1,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "alpha",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ⲁⲗⲫⲁ",
+        "latin": "Alfa",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "a"
+          ],
+          "printed": "a",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "a"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ⲃ",
+      "codepoint": "U+2C83",
+      "upper_grapheme": "Ⲃ",
+      "upper_codepoint": "U+2C82",
+      "unicode_name": "COPTIC SMALL LETTER VIDA",
+      "origin": "greek",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 2,
+      "order_s": 2,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "vita",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ⲃⲓⲇⲁ",
+        "latin": "Vida",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "v"
+          ],
+          "printed": "v",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "b"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ⲅ",
+      "codepoint": "U+2C85",
+      "upper_grapheme": "Ⲅ",
+      "upper_codepoint": "U+2C84",
+      "unicode_name": "COPTIC SMALL LETTER GAMMA",
+      "origin": "greek",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 3,
+      "order_s": 3,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "gamma",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ⲅⲁⲙⲙⲁ",
+        "latin": "Gamma",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "g"
+          ],
+          "printed": "g غ",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "g"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ⲇ",
+      "codepoint": "U+2C87",
+      "upper_grapheme": "Ⲇ",
+      "upper_codepoint": "U+2C86",
+      "unicode_name": "COPTIC SMALL LETTER DALDA",
+      "origin": "greek",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 4,
+      "order_s": 4,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "delta",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ⲇⲁⲗⲇⲁ",
+        "latin": "Dalda",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "d"
+          ],
+          "printed": "d",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "d"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ⲉ",
+      "codepoint": "U+2C89",
+      "upper_grapheme": "Ⲉ",
+      "upper_codepoint": "U+2C88",
+      "unicode_name": "COPTIC SMALL LETTER EIE",
+      "origin": "greek",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 5,
+      "order_s": 5,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "epsilon",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ⲉⲓ",
+        "latin": "Ei",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "é"
+          ],
+          "printed": "é",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "e"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ⲍ",
+      "codepoint": "U+2C8D",
+      "upper_grapheme": "Ⲍ",
+      "upper_codepoint": "U+2C8C",
+      "unicode_name": "COPTIC SMALL LETTER ZATA",
+      "origin": "greek",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 6,
+      "order_s": 6,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "zita",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ⲍⲏⲧⲁ",
+        "latin": "Zita",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "z"
+          ],
+          "printed": "z",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "z"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ⲏ",
+      "codepoint": "U+2C8F",
+      "upper_grapheme": "Ⲏ",
+      "upper_codepoint": "U+2C8E",
+      "unicode_name": "COPTIC SMALL LETTER HATE",
+      "origin": "greek",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 7,
+      "order_s": 7,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "ita",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ⲏⲧⲁ",
+        "latin": "Ita",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "i",
+            "è"
+          ],
+          "printed": "i è",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "ē"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ⲑ",
+      "codepoint": "U+2C91",
+      "upper_grapheme": "Ⲑ",
+      "upper_codepoint": "U+2C90",
+      "unicode_name": "COPTIC SMALL LETTER THETHE",
+      "origin": "greek",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 8,
+      "order_s": 8,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "thita",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ⲑⲏⲧⲁ",
+        "latin": "Thita",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "th"
+          ],
+          "printed": "th",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "th"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ⲓ",
+      "codepoint": "U+2C93",
+      "upper_grapheme": "Ⲓ",
+      "upper_codepoint": "U+2C92",
+      "unicode_name": "COPTIC SMALL LETTER IAUDA",
+      "origin": "greek",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 9,
+      "order_s": 9,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "iota",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ⲓⲱⲧⲁ",
+        "latin": "Yota",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "i"
+          ],
+          "printed": "i",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "i"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ⲕ",
+      "codepoint": "U+2C95",
+      "upper_grapheme": "Ⲕ",
+      "upper_codepoint": "U+2C94",
+      "unicode_name": "COPTIC SMALL LETTER KAPA",
+      "origin": "greek",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 10,
+      "order_s": 10,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "kappa",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ⲕⲁⲡⲡⲁ",
+        "latin": "Kappa",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "k"
+          ],
+          "printed": "k",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "k"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ⲗ",
+      "codepoint": "U+2C97",
+      "upper_grapheme": "Ⲗ",
+      "upper_codepoint": "U+2C96",
+      "unicode_name": "COPTIC SMALL LETTER LAULA",
+      "origin": "greek",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 11,
+      "order_s": 11,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "laoula",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ⲗⲁⲩⲗⲁ",
+        "latin": "Lavla",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "l"
+          ],
+          "printed": "l",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "l"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ⲙ",
+      "codepoint": "U+2C99",
+      "upper_grapheme": "Ⲙ",
+      "upper_codepoint": "U+2C98",
+      "unicode_name": "COPTIC SMALL LETTER MI",
+      "origin": "greek",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 12,
+      "order_s": 12,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "mi",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ⲙⲓ",
+        "latin": "Mi",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "m"
+          ],
+          "printed": "m",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "m"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ⲛ",
+      "codepoint": "U+2C9B",
+      "upper_grapheme": "Ⲛ",
+      "upper_codepoint": "U+2C9A",
+      "unicode_name": "COPTIC SMALL LETTER NI",
+      "origin": "greek",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 13,
+      "order_s": 13,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "ni",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ⲛⲓ",
+        "latin": "Ni",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "n"
+          ],
+          "printed": "n",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "n"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ⲝ",
+      "codepoint": "U+2C9D",
+      "upper_grapheme": "Ⲝ",
+      "upper_codepoint": "U+2C9C",
+      "unicode_name": "COPTIC SMALL LETTER KSI",
+      "origin": "greek",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 14,
+      "order_s": 14,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "xi",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ⲝⲓ",
+        "latin": "Exi",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "x"
+          ],
+          "printed": "x",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "ks"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ⲟ",
+      "codepoint": "U+2C9F",
+      "upper_grapheme": "Ⲟ",
+      "upper_codepoint": "U+2C9E",
+      "unicode_name": "COPTIC SMALL LETTER O",
+      "origin": "greek",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 15,
+      "order_s": 15,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "omicron",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ⲟⲩ",
+        "latin": "O",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "o"
+          ],
+          "printed": "o",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "o"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ⲡ",
+      "codepoint": "U+2CA1",
+      "upper_grapheme": "Ⲡ",
+      "upper_codepoint": "U+2CA0",
+      "unicode_name": "COPTIC SMALL LETTER PI",
+      "origin": "greek",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 16,
+      "order_s": 16,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "pi",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ⲡⲓ",
+        "latin": "Pi",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "p"
+          ],
+          "printed": "p",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "p"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ⲣ",
+      "codepoint": "U+2CA3",
+      "upper_grapheme": "Ⲣ",
+      "upper_codepoint": "U+2CA2",
+      "unicode_name": "COPTIC SMALL LETTER RO",
+      "origin": "greek",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 17,
+      "order_s": 17,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "ro",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ⲣⲟ",
+        "latin": "Ro",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "r"
+          ],
+          "printed": "r",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "r"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ⲥ",
+      "codepoint": "U+2CA5",
+      "upper_grapheme": "Ⲥ",
+      "upper_codepoint": "U+2CA4",
+      "unicode_name": "COPTIC SMALL LETTER SIMA",
+      "origin": "greek",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 18,
+      "order_s": 18,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "sima",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ⲥⲓⲙⲁ",
+        "latin": "Sima",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "s"
+          ],
+          "printed": "s",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "s"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ⲧ",
+      "codepoint": "U+2CA7",
+      "upper_grapheme": "Ⲧ",
+      "upper_codepoint": "U+2CA6",
+      "unicode_name": "COPTIC SMALL LETTER TAU",
+      "origin": "greek",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 19,
+      "order_s": 19,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "tau",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ⲧⲁⲩ",
+        "latin": "Tav",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "t"
+          ],
+          "printed": "t",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "t"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ⲩ",
+      "codepoint": "U+2CA9",
+      "upper_grapheme": "Ⲩ",
+      "upper_codepoint": "U+2CA8",
+      "unicode_name": "COPTIC SMALL LETTER UA",
+      "origin": "greek",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 20,
+      "order_s": 20,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "ypsilon",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ⲩⲉ",
+        "latin": "He",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "y",
+            "ou"
+          ],
+          "printed": "y ou",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "u"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ⲫ",
+      "codepoint": "U+2CAB",
+      "upper_grapheme": "Ⲫ",
+      "upper_codepoint": "U+2CAA",
+      "unicode_name": "COPTIC SMALL LETTER FI",
+      "origin": "greek",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 21,
+      "order_s": 21,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "phi",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ⲫⲓ",
+        "latin": "Phi",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "ph"
+          ],
+          "printed": "ph",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "ph"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ⲭ",
+      "codepoint": "U+2CAD",
+      "upper_grapheme": "Ⲭ",
+      "upper_codepoint": "U+2CAC",
+      "unicode_name": "COPTIC SMALL LETTER KHI",
+      "origin": "greek",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 22,
+      "order_s": 22,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "chi",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ⲭⲓ",
+        "latin": "Khi",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "ch"
+          ],
+          "printed": "ch χ",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "kh"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ⲯ",
+      "codepoint": "U+2CAF",
+      "upper_grapheme": "Ⲯ",
+      "upper_codepoint": "U+2CAE",
+      "unicode_name": "COPTIC SMALL LETTER PSI",
+      "origin": "greek",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 23,
+      "order_s": 23,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "psi",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ⲯⲓ",
+        "latin": "Epsi",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "ps"
+          ],
+          "printed": "ps",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "ps"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ⲱ",
+      "codepoint": "U+2CB1",
+      "upper_grapheme": "Ⲱ",
+      "upper_codepoint": "U+2CB0",
+      "unicode_name": "COPTIC SMALL LETTER OOU",
+      "origin": "greek",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 24,
+      "order_s": 24,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "oméga",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ⲱⲟⲩ",
+        "latin": "Ô",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "ô"
+          ],
+          "printed": "ô",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "ō"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ϣ",
+      "codepoint": "U+03E3",
+      "upper_grapheme": "Ϣ",
+      "upper_codepoint": "U+03E2",
+      "unicode_name": "COPTIC SMALL LETTER SHEI",
+      "origin": "demotic",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 25,
+      "order_s": 25,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "schai",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ϣⲉⲓ",
+        "latin": "Shai",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "sch"
+          ],
+          "printed": "sch",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "š"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ϥ",
+      "codepoint": "U+03E5",
+      "upper_grapheme": "Ϥ",
+      "upper_codepoint": "U+03E4",
+      "unicode_name": "COPTIC SMALL LETTER FEI",
+      "origin": "demotic",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 26,
+      "order_s": 26,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "fai",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ϥⲉⲓ",
+        "latin": "Fai",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "f"
+          ],
+          "printed": "f",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "f"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ϧ",
+      "codepoint": "U+03E7",
+      "upper_grapheme": "Ϧ",
+      "upper_codepoint": "U+03E6",
+      "unicode_name": "COPTIC SMALL LETTER KHEI",
+      "origin": "demotic",
+      "used_in_b": true,
+      "used_in_s": false,
+      "order_b": 27,
+      "order_s": null,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1"
+      ],
+      "name": {
+        "B": {
+          "value": "khai",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ϧⲉⲓ",
+        "latin": "Khai",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "kh"
+          ],
+          "printed": "kh خ",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": null
+      }
+    },
+    {
+      "grapheme": "ϩ",
+      "codepoint": "U+03E9",
+      "upper_grapheme": "Ϩ",
+      "upper_codepoint": "U+03E8",
+      "unicode_name": "COPTIC SMALL LETTER HORI",
+      "origin": "demotic",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 28,
+      "order_s": 27,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "hori",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ϩⲟⲣⲓ",
+        "latin": "Hori",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "h"
+          ],
+          "printed": "h",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »",
+          "note": "Un signe suit « h » dans la colonne Valeur ; illisible dans le scan, non repris."
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "h"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ϫ",
+      "codepoint": "U+03EB",
+      "upper_grapheme": "Ϫ",
+      "upper_codepoint": "U+03EA",
+      "unicode_name": "COPTIC SMALL LETTER GANGIA",
+      "origin": "demotic",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 29,
+      "order_s": 28,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "djendja",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ϫⲁⲛϫⲓⲁ",
+        "latin": "Janja",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "dj"
+          ],
+          "printed": "dj",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "j",
+            "ǧ"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ϭ",
+      "codepoint": "U+03ED",
+      "upper_grapheme": "Ϭ",
+      "upper_codepoint": "U+03EC",
+      "unicode_name": "COPTIC SMALL LETTER SHIMA",
+      "origin": "demotic",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 30,
+      "order_s": 29,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "tschima",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ϭⲓⲙⲁ",
+        "latin": "Tchima",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "sch"
+          ],
+          "printed": "sch",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "č",
+            "c"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    },
+    {
+      "grapheme": "ϯ",
+      "codepoint": "U+03EF",
+      "upper_grapheme": "Ϯ",
+      "upper_codepoint": "U+03EE",
+      "unicode_name": "COPTIC SMALL LETTER DEI",
+      "origin": "demotic",
+      "used_in_b": true,
+      "used_in_s": true,
+      "order_b": 31,
+      "order_s": 30,
+      "source_refs": [
+        "MALLON_GRAMMAIRE_S1",
+        "LAYTON_C20L_S4",
+        "LAMBDIN_ISC"
+      ],
+      "name": {
+        "B": {
+          "value": "ti",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        }
+      },
+      "liturgical_name": {
+        "coptic": "ϯ",
+        "latin": "Ti",
+        "source_ref": "COPTIC_LITURGICAL_NAMES",
+        "status": "to_review"
+      },
+      "pron": {
+        "GB": {
+          "translit": [
+            "ti"
+          ],
+          "printed": "ti",
+          "source_ref": "MALLON_GRAMMAIRE_S1",
+          "locator": "§1, p. 7, tableau « A. Alphabet »"
+        },
+        "OB": null,
+        "SAH": {
+          "translit": [
+            "ti"
+          ],
+          "source_ref": "LAMBDIN_ISC",
+          "locator": "alphabet (transcription conventionnelle)"
+        }
+      }
+    }
+  ]
+}

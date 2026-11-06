@@ -1,0 +1,32 @@
+{
+  "$comment": "Généré par tools/publish_content.py — ne pas éditer à la main.",
+  "schema": 1,
+  "version": 20261106145822,
+  "content_hash": "b7bfb0f80756a5163039566de4be4ad81c1e3333ad3fa22a68a85039f091668c",
+  "files": {
+    "letters.json": {
+      "sha256": "06044206794baa7c0b76d50289f5c6b2ee0d72963b54ca3b538d03ddf2391b0f",
+      "size": 38023
+    },
+    "grammar_B.json": {
+      "sha256": "a00f600051c467681aeb858e5aeea3b5c8ec2a9b1a146c0389e238a4dbbeaa69",
+      "size": 72078
+    },
+    "grammar_S.json": {
+      "sha256": "5e4daea6354dc1d8f499e8dc50da94081bb7183a713ff6900fcc21c4c4b64a48",
+      "size": 5205
+    },
+    "course_B.json": {
+      "sha256": "b6018e3aeb7d7a024c2f7794b3a7e87ed5c59e772573e585e9914460703466a3",
+      "size": 740849
+    },
+    "course_S.json": {
+      "sha256": "262a9a93a3deefe472af5096de19902f81be67f87631487dbbc7d6b26ff3cab8",
+      "size": 1130993
+    },
+    "liturgy_B.json": {
+      "sha256": "05a8eba8f12a19262b6abe187940221e91c695d472161c1322882e88615c3725",
+      "size": 33633
+    }
+  }
+}

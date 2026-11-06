@@ -1,0 +1,1466 @@
+{
+  "$comment": "Généré par tools/gen_liturgy.py — ne pas éditer à la main.",
+  "dialect": "B",
+  "version": 1,
+  "status": "to_review",
+  "source": {
+    "title": "Liturgie copte orthodoxe (bohaïrique), textes usuels",
+    "license": "Textes liturgiques traditionnels (domaine public) ; traductions du projet",
+    "note": "Saisie d'après l'usage liturgique, à relire et à rattacher à une édition imprimée"
+  },
+  "stories": [
+    {
+      "id": "B-L01",
+      "book": "Liturgy",
+      "chapter": 1,
+      "title": {
+        "fr": "Courtes invocations",
+        "en": "Short invocations"
+      },
+      "occasion": {
+        "fr": "Répons du peuple, tout au long des offices",
+        "en": "People's responses throughout the services"
+      },
+      "corpus": "liturgy",
+      "status": "to_review",
+      "verses": [
+        {
+          "id": "B-L01-1",
+          "g": [
+            {
+              "t": "Ⲁ̀ⲙⲏⲛ"
+            }
+          ],
+          "tr": {
+            "fr": "Amen.",
+            "en": "Amen."
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L01"
+          },
+          "ref": {
+            "fr": "Peuple",
+            "en": "People"
+          },
+          "role": "people",
+          "lang": "cop"
+        },
+        {
+          "id": "B-L01-2",
+          "g": [
+            {
+              "t": "Ⲁ̀ⲗⲗⲏⲗⲟⲩⲓ̀ⲁ"
+            }
+          ],
+          "tr": {
+            "fr": "Alléluia.",
+            "en": "Alleluia."
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L01"
+          },
+          "ref": {
+            "fr": "Peuple",
+            "en": "People"
+          },
+          "role": "people",
+          "lang": "cop"
+        },
+        {
+          "id": "B-L01-3",
+          "g": [
+            {
+              "t": "Ⲡϭⲟⲓⲥ"
+            },
+            {
+              "t": "ⲛⲁⲓ"
+            },
+            {
+              "t": "ⲛⲁⲛ"
+            }
+          ],
+          "tr": {
+            "fr": "Seigneur, aie pitié de nous.",
+            "en": "Lord, have mercy on us."
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L01"
+          },
+          "ref": {
+            "fr": "Peuple",
+            "en": "People"
+          },
+          "role": "people",
+          "lang": "cop"
+        },
+        {
+          "id": "B-L01-4",
+          "g": [
+            {
+              "t": "Ⲕⲩⲣⲓⲉ"
+            },
+            {
+              "t": "ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ"
+            }
+          ],
+          "tr": {
+            "fr": "Seigneur, aie pitié.",
+            "en": "Lord, have mercy."
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L01"
+          },
+          "ref": {
+            "fr": "Peuple · grec liturgique",
+            "en": "People · liturgical Greek"
+          },
+          "role": "people",
+          "lang": "grc"
+        },
+        {
+          "id": "B-L01-5",
+          "g": [
+            {
+              "t": "Ⲇⲟⲝⲁ"
+            },
+            {
+              "t": "ⲥⲓ"
+            },
+            {
+              "t": "Ⲕⲩⲣⲓⲉ"
+            }
+          ],
+          "tr": {
+            "fr": "Gloire à toi, Seigneur.",
+            "en": "Glory to you, O Lord."
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L01"
+          },
+          "ref": {
+            "fr": "Peuple · grec liturgique",
+            "en": "People · liturgical Greek"
+          },
+          "role": "people",
+          "lang": "grc"
+        }
+      ]
+    },
+    {
+      "id": "B-L02",
+      "book": "Liturgy",
+      "chapter": 2,
+      "title": {
+        "fr": "Le signe de la croix",
+        "en": "The sign of the cross"
+      },
+      "occasion": {
+        "fr": "Au début de toute prière",
+        "en": "At the beginning of every prayer"
+      },
+      "corpus": "liturgy",
+      "status": "to_review",
+      "verses": [
+        {
+          "id": "B-L02-1",
+          "g": [
+            {
+              "t": "Ϧⲉⲛ"
+            },
+            {
+              "t": "ⲫ̀ⲣⲁⲛ"
+            },
+            {
+              "t": "ⲙ̀Ⲫⲓⲱⲧ"
+            }
+          ],
+          "tr": {
+            "fr": "Au nom du Père,",
+            "en": "In the name of the Father,"
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L02"
+          },
+          "ref": {
+            "fr": "Tous",
+            "en": "All"
+          },
+          "role": "all",
+          "lang": "cop"
+        },
+        {
+          "id": "B-L02-2",
+          "g": [
+            {
+              "t": "ⲛⲉⲙ"
+            },
+            {
+              "t": "Ⲡ̀ϣⲏⲣⲓ"
+            },
+            {
+              "t": "ⲛⲉⲙ"
+            },
+            {
+              "t": "Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ"
+            },
+            {
+              "t": "ⲉⲑⲟⲩⲁⲃ"
+            }
+          ],
+          "tr": {
+            "fr": "et du Fils et du Saint-Esprit,",
+            "en": "and of the Son and of the Holy Spirit,"
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L02"
+          },
+          "ref": {
+            "fr": "Tous",
+            "en": "All"
+          },
+          "role": "all",
+          "lang": "cop"
+        },
+        {
+          "id": "B-L02-3",
+          "g": [
+            {
+              "t": "ⲟⲩⲛⲟⲩϯ"
+            },
+            {
+              "t": "ⲛ̀ⲟⲩⲱⲧ"
+            },
+            {
+              "t": "ⲁ̀ⲙⲏⲛ"
+            }
+          ],
+          "tr": {
+            "fr": "un seul Dieu. Amen.",
+            "en": "one God. Amen."
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L02"
+          },
+          "ref": {
+            "fr": "Tous",
+            "en": "All"
+          },
+          "role": "all",
+          "lang": "cop"
+        }
+      ]
+    },
+    {
+      "id": "B-L03",
+      "book": "Liturgy",
+      "chapter": 3,
+      "title": {
+        "fr": "Le dialogue de la paix",
+        "en": "The dialogue of peace"
+      },
+      "occasion": {
+        "fr": "Liturgie de saint Basile",
+        "en": "Liturgy of Saint Basil"
+      },
+      "corpus": "liturgy",
+      "status": "to_review",
+      "verses": [
+        {
+          "id": "B-L03-1",
+          "g": [
+            {
+              "t": "Ⲡ̀ϭⲟⲓⲥ"
+            },
+            {
+              "t": "ⲛⲉⲙⲱⲧⲉⲛ"
+            },
+            {
+              "t": "ⲧⲏⲣⲟⲩ"
+            }
+          ],
+          "tr": {
+            "fr": "Le Seigneur soit avec vous tous.",
+            "en": "The Lord be with you all."
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L03"
+          },
+          "ref": {
+            "fr": "Prêtre",
+            "en": "Priest"
+          },
+          "role": "priest",
+          "lang": "cop"
+        },
+        {
+          "id": "B-L03-2",
+          "g": [
+            {
+              "t": "Ⲛⲉⲙ"
+            },
+            {
+              "t": "ⲡⲉⲕⲡ̀ⲛⲉⲩⲙⲁ"
+            },
+            {
+              "t": "ⲱ̀ⲛ"
+            }
+          ],
+          "tr": {
+            "fr": "Et avec ton esprit aussi.",
+            "en": "And with your spirit also."
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L03"
+          },
+          "ref": {
+            "fr": "Peuple",
+            "en": "People"
+          },
+          "role": "people",
+          "lang": "cop"
+        },
+        {
+          "id": "B-L03-3",
+          "g": [
+            {
+              "t": "Ⲡ̀ⲣⲟⲥⲉⲩⲝⲁⲥⲑⲉ"
+            }
+          ],
+          "tr": {
+            "fr": "Priez.",
+            "en": "Pray."
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L03"
+          },
+          "ref": {
+            "fr": "Diacre · grec liturgique",
+            "en": "Deacon · liturgical Greek"
+          },
+          "role": "deacon",
+          "lang": "grc"
+        },
+        {
+          "id": "B-L03-4",
+          "g": [
+            {
+              "t": "Ⲕⲩⲣⲓⲉ"
+            },
+            {
+              "t": "ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ"
+            }
+          ],
+          "tr": {
+            "fr": "Seigneur, aie pitié.",
+            "en": "Lord, have mercy."
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L03"
+          },
+          "ref": {
+            "fr": "Peuple · grec liturgique",
+            "en": "People · liturgical Greek"
+          },
+          "role": "people",
+          "lang": "grc"
+        },
+        {
+          "id": "B-L03-5",
+          "g": [
+            {
+              "t": "Ⲓ̀ⲣⲏⲛⲏ"
+            },
+            {
+              "t": "ⲡⲁⲥⲓ"
+            }
+          ],
+          "tr": {
+            "fr": "Paix à tous.",
+            "en": "Peace be with all."
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L03"
+          },
+          "ref": {
+            "fr": "Prêtre · grec liturgique",
+            "en": "Priest · liturgical Greek"
+          },
+          "role": "priest",
+          "lang": "grc"
+        },
+        {
+          "id": "B-L03-6",
+          "g": [
+            {
+              "t": "Ⲕⲉ"
+            },
+            {
+              "t": "ⲧⲱ"
+            },
+            {
+              "t": "ⲡ̀ⲛⲉⲩⲙⲁⲧⲓ"
+            },
+            {
+              "t": "ⲥⲟⲩ"
+            }
+          ],
+          "tr": {
+            "fr": "Et à ton esprit.",
+            "en": "And with your spirit."
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L03"
+          },
+          "ref": {
+            "fr": "Peuple · grec liturgique",
+            "en": "People · liturgical Greek"
+          },
+          "role": "people",
+          "lang": "grc"
+        },
+        {
+          "id": "B-L03-7",
+          "g": [
+            {
+              "t": "Ⲁ̀ⲥⲡⲁⲥⲁⲥⲑⲉ"
+            },
+            {
+              "t": "ⲁ̀ⲗⲗⲏⲗⲟⲩⲥ"
+            },
+            {
+              "t": "ⲉ̀ⲛ"
+            },
+            {
+              "t": "ⲫⲓⲗⲏⲙⲁⲧⲓ"
+            },
+            {
+              "t": "ⲁ̀ⲅⲓⲱ"
+            }
+          ],
+          "tr": {
+            "fr": "Saluez-vous les uns les autres d'un saint baiser.",
+            "en": "Greet one another with a holy kiss."
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L03"
+          },
+          "ref": {
+            "fr": "Diacre · grec liturgique",
+            "en": "Deacon · liturgical Greek"
+          },
+          "role": "deacon",
+          "lang": "grc"
+        }
+      ]
+    },
+    {
+      "id": "B-L04",
+      "book": "Liturgy",
+      "chapter": 4,
+      "title": {
+        "fr": "Élevons nos cœurs",
+        "en": "Lift up your hearts"
+      },
+      "occasion": {
+        "fr": "Début de l'anaphore, liturgie de saint Basile",
+        "en": "Beginning of the anaphora, Liturgy of Saint Basil"
+      },
+      "corpus": "liturgy",
+      "status": "to_review",
+      "verses": [
+        {
+          "id": "B-L04-1",
+          "g": [
+            {
+              "t": "Ⲁ̀ⲛⲱ"
+            },
+            {
+              "t": "ⲩ̀ⲙⲱⲛ"
+            },
+            {
+              "t": "ⲧⲁⲥ"
+            },
+            {
+              "t": "ⲕⲁⲣⲇⲓⲁⲥ"
+            }
+          ],
+          "tr": {
+            "fr": "Élevons nos cœurs.",
+            "en": "Lift up your hearts."
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L04"
+          },
+          "ref": {
+            "fr": "Prêtre · grec liturgique",
+            "en": "Priest · liturgical Greek"
+          },
+          "role": "priest",
+          "lang": "grc"
+        },
+        {
+          "id": "B-L04-2",
+          "g": [
+            {
+              "t": "Ⲉⲭⲟⲙⲉⲛ"
+            },
+            {
+              "t": "ⲡ̀ⲣⲟⲥ"
+            },
+            {
+              "t": "ⲧⲟⲛ"
+            },
+            {
+              "t": "Ⲕⲩⲣⲓⲟⲛ"
+            }
+          ],
+          "tr": {
+            "fr": "Nous les tournons vers le Seigneur.",
+            "en": "We have them with the Lord."
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L04"
+          },
+          "ref": {
+            "fr": "Peuple · grec liturgique",
+            "en": "People · liturgical Greek"
+          },
+          "role": "people",
+          "lang": "grc"
+        },
+        {
+          "id": "B-L04-3",
+          "g": [
+            {
+              "t": "Ⲉⲩⲭⲁⲣⲓⲥⲧⲏⲥⲱⲙⲉⲛ"
+            },
+            {
+              "t": "ⲧⲱ"
+            },
+            {
+              "t": "Ⲕⲩⲣⲓⲱ"
+            }
+          ],
+          "tr": {
+            "fr": "Rendons grâce au Seigneur.",
+            "en": "Let us give thanks to the Lord."
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L04"
+          },
+          "ref": {
+            "fr": "Prêtre · grec liturgique",
+            "en": "Priest · liturgical Greek"
+          },
+          "role": "priest",
+          "lang": "grc"
+        },
+        {
+          "id": "B-L04-4",
+          "g": [
+            {
+              "t": "Ⲁ̀ⲝⲓⲟⲛ"
+            },
+            {
+              "t": "ⲕⲉ"
+            },
+            {
+              "t": "ⲇⲓⲕⲉⲟⲛ"
+            }
+          ],
+          "tr": {
+            "fr": "Cela est digne et juste.",
+            "en": "It is meet and right."
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L04"
+          },
+          "ref": {
+            "fr": "Peuple · grec liturgique",
+            "en": "People · liturgical Greek"
+          },
+          "role": "people",
+          "lang": "grc"
+        }
+      ]
+    },
+    {
+      "id": "B-L05",
+      "book": "Liturgy",
+      "chapter": 5,
+      "title": {
+        "fr": "Le salut pascal",
+        "en": "The Paschal greeting"
+      },
+      "occasion": {
+        "fr": "Temps pascal",
+        "en": "Paschal season"
+      },
+      "corpus": "liturgy",
+      "status": "to_review",
+      "verses": [
+        {
+          "id": "B-L05-1",
+          "g": [
+            {
+              "t": "Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ"
+            },
+            {
+              "t": "ⲁϥⲧⲱⲛϥ"
+            }
+          ],
+          "tr": {
+            "fr": "Le Christ est ressuscité !",
+            "en": "Christ is risen!"
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L05"
+          },
+          "ref": {
+            "fr": "Prêtre",
+            "en": "Priest"
+          },
+          "role": "priest",
+          "lang": "cop"
+        },
+        {
+          "id": "B-L05-2",
+          "g": [
+            {
+              "t": "Ⲁ̀ⲗⲏⲑⲱⲥ"
+            },
+            {
+              "t": "ⲁϥⲧⲱⲛϥ"
+            }
+          ],
+          "tr": {
+            "fr": "Il est vraiment ressuscité !",
+            "en": "Truly he is risen!"
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L05"
+          },
+          "ref": {
+            "fr": "Peuple",
+            "en": "People"
+          },
+          "role": "people",
+          "lang": "cop"
+        },
+        {
+          "id": "B-L05-3",
+          "g": [
+            {
+              "t": "Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ"
+            },
+            {
+              "t": "ⲁϥⲧⲱⲛϥ"
+            },
+            {
+              "t": "ⲉ̀ⲃⲟⲗ"
+            },
+            {
+              "t": "ϧⲉⲛ"
+            },
+            {
+              "t": "ⲛⲏⲉⲑⲙⲱⲟⲩⲧ"
+            }
+          ],
+          "tr": {
+            "fr": "Le Christ est ressuscité des morts ;",
+            "en": "Christ is risen from the dead;"
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L05"
+          },
+          "ref": {
+            "fr": "Tous",
+            "en": "All"
+          },
+          "role": "all",
+          "lang": "cop"
+        },
+        {
+          "id": "B-L05-4",
+          "g": [
+            {
+              "t": "ⲫⲏⲉ̀ⲧⲁϥⲙⲟⲩ"
+            },
+            {
+              "t": "ⲁϥϩⲱⲙⲓ"
+            },
+            {
+              "t": "ⲉ̀ϫⲉⲛ"
+            },
+            {
+              "t": "ⲫ̀ⲙⲟⲩ"
+            }
+          ],
+          "tr": {
+            "fr": "par sa mort, il a foulé la mort,",
+            "en": "by his death he trampled upon death,"
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L05"
+          },
+          "ref": {
+            "fr": "Tous",
+            "en": "All"
+          },
+          "role": "all",
+          "lang": "cop"
+        },
+        {
+          "id": "B-L05-5",
+          "g": [
+            {
+              "t": "ⲟⲩⲟϩ"
+            },
+            {
+              "t": "ⲛⲏⲉⲧⲭⲏ"
+            },
+            {
+              "t": "ϧⲉⲛ"
+            },
+            {
+              "t": "ⲛⲓⲙ̀ϩⲁⲩ"
+            }
+          ],
+          "tr": {
+            "fr": "et à ceux qui sont dans les tombeaux",
+            "en": "and to those in the tombs"
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L05"
+          },
+          "ref": {
+            "fr": "Tous",
+            "en": "All"
+          },
+          "role": "all",
+          "lang": "cop"
+        },
+        {
+          "id": "B-L05-6",
+          "g": [
+            {
+              "t": "ⲁϥⲉⲣϩ̀ⲙⲟⲧ"
+            },
+            {
+              "t": "ⲛⲱⲟⲩ"
+            },
+            {
+              "t": "ⲙ̀ⲡⲓⲱⲛϧ"
+            },
+            {
+              "t": "ⲛ̀ⲉ̀ⲛⲉϩ"
+            }
+          ],
+          "tr": {
+            "fr": "il a donné la vie éternelle.",
+            "en": "he has granted eternal life."
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L05"
+          },
+          "ref": {
+            "fr": "Tous",
+            "en": "All"
+          },
+          "role": "all",
+          "lang": "cop"
+        }
+      ]
+    },
+    {
+      "id": "B-L06",
+      "book": "Liturgy",
+      "chapter": 6,
+      "title": {
+        "fr": "Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ",
+        "en": "Ⲭⲉⲣⲉ ⲛⲉ Ⲙⲁⲣⲓⲁ"
+      },
+      "occasion": {
+        "fr": "Hymne à la Vierge Marie",
+        "en": "Hymn to the Virgin Mary"
+      },
+      "corpus": "liturgy",
+      "status": "to_review",
+      "verses": [
+        {
+          "id": "B-L06-1",
+          "g": [
+            {
+              "t": "Ⲭⲉⲣⲉ"
+            },
+            {
+              "t": "ⲛⲉ"
+            },
+            {
+              "t": "Ⲙⲁⲣⲓⲁ"
+            }
+          ],
+          "tr": {
+            "fr": "Je te salue, Marie,",
+            "en": "Hail to you, Mary,"
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L06"
+          },
+          "ref": {
+            "fr": "Tous",
+            "en": "All"
+          },
+          "role": "all",
+          "lang": "cop"
+        },
+        {
+          "id": "B-L06-2",
+          "g": [
+            {
+              "t": "ϯϭ̀ⲣⲟⲙⲡⲓ"
+            },
+            {
+              "t": "ⲉⲑⲛⲉⲥⲱⲥ"
+            }
+          ],
+          "tr": {
+            "fr": "la belle colombe,",
+            "en": "the fair dove,"
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L06"
+          },
+          "ref": {
+            "fr": "Tous",
+            "en": "All"
+          },
+          "role": "all",
+          "lang": "cop"
+        },
+        {
+          "id": "B-L06-3",
+          "g": [
+            {
+              "t": "ⲑⲏⲉ̀ⲧⲁⲥⲙⲓⲥⲓ"
+            },
+            {
+              "t": "ⲛⲁⲛ"
+            }
+          ],
+          "tr": {
+            "fr": "qui a enfanté pour nous",
+            "en": "who has borne for us"
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L06"
+          },
+          "ref": {
+            "fr": "Tous",
+            "en": "All"
+          },
+          "role": "all",
+          "lang": "cop"
+        },
+        {
+          "id": "B-L06-4",
+          "g": [
+            {
+              "t": "ⲙ̀Ⲫⲛⲟⲩϯ"
+            },
+            {
+              "t": "ⲡⲓⲖⲟⲅⲟⲥ"
+            }
+          ],
+          "tr": {
+            "fr": "Dieu le Verbe.",
+            "en": "God the Word."
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L06"
+          },
+          "ref": {
+            "fr": "Tous",
+            "en": "All"
+          },
+          "role": "all",
+          "lang": "cop"
+        }
+      ]
+    },
+    {
+      "id": "B-L07",
+      "book": "Liturgy",
+      "chapter": 7,
+      "title": {
+        "fr": "Le Trisagion",
+        "en": "The Trisagion"
+      },
+      "occasion": {
+        "fr": "Avant l'Évangile",
+        "en": "Before the Gospel"
+      },
+      "corpus": "liturgy",
+      "status": "to_review",
+      "verses": [
+        {
+          "id": "B-L07-1",
+          "g": [
+            {
+              "t": "Ⲁ̀ⲅⲓⲟⲥ"
+            },
+            {
+              "t": "ⲟ̀"
+            },
+            {
+              "t": "Ⲑⲉⲟⲥ"
+            }
+          ],
+          "tr": {
+            "fr": "Saint Dieu,",
+            "en": "Holy God,"
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L07"
+          },
+          "ref": {
+            "fr": "Tous · grec liturgique",
+            "en": "All · liturgical Greek"
+          },
+          "role": "all",
+          "lang": "grc"
+        },
+        {
+          "id": "B-L07-2",
+          "g": [
+            {
+              "t": "Ⲁ̀ⲅⲓⲟⲥ"
+            },
+            {
+              "t": "ⲓⲥⲭⲩⲣⲟⲥ"
+            }
+          ],
+          "tr": {
+            "fr": "Saint Fort,",
+            "en": "Holy Mighty,"
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L07"
+          },
+          "ref": {
+            "fr": "Tous · grec liturgique",
+            "en": "All · liturgical Greek"
+          },
+          "role": "all",
+          "lang": "grc"
+        },
+        {
+          "id": "B-L07-3",
+          "g": [
+            {
+              "t": "Ⲁ̀ⲅⲓⲟⲥ"
+            },
+            {
+              "t": "ⲁ̀ⲑⲁⲛⲁⲧⲟⲥ"
+            }
+          ],
+          "tr": {
+            "fr": "Saint Immortel,",
+            "en": "Holy Immortal,"
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L07"
+          },
+          "ref": {
+            "fr": "Tous · grec liturgique",
+            "en": "All · liturgical Greek"
+          },
+          "role": "all",
+          "lang": "grc"
+        },
+        {
+          "id": "B-L07-4",
+          "g": [
+            {
+              "t": "ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ"
+            },
+            {
+              "t": "ⲏ̀ⲙⲁⲥ"
+            }
+          ],
+          "tr": {
+            "fr": "aie pitié de nous.",
+            "en": "have mercy on us."
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L07"
+          },
+          "ref": {
+            "fr": "Tous · grec liturgique",
+            "en": "All · liturgical Greek"
+          },
+          "role": "all",
+          "lang": "grc"
+        }
+      ]
+    },
+    {
+      "id": "B-L08",
+      "book": "Liturgy",
+      "chapter": 8,
+      "title": {
+        "fr": "Le Notre Père",
+        "en": "The Lord's Prayer"
+      },
+      "occasion": {
+        "fr": "Agpeya, à chaque heure de prière",
+        "en": "Agpeya, at every hour of prayer"
+      },
+      "corpus": "liturgy",
+      "status": "to_review",
+      "verses": [
+        {
+          "id": "B-L08-1",
+          "g": [
+            {
+              "t": "Ⲡⲉⲛⲓⲱⲧ"
+            },
+            {
+              "t": "ⲉⲧϧⲉⲛ"
+            },
+            {
+              "t": "ⲛⲓⲫⲏⲟⲩⲓ̀"
+            }
+          ],
+          "tr": {
+            "fr": "Notre Père qui es aux cieux,",
+            "en": "Our Father who art in heaven,"
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L08"
+          },
+          "ref": {
+            "fr": "Tous",
+            "en": "All"
+          },
+          "role": "all",
+          "lang": "cop"
+        },
+        {
+          "id": "B-L08-2",
+          "g": [
+            {
+              "t": "ⲙⲁⲣⲉϥⲧⲟⲩⲃⲟ"
+            },
+            {
+              "t": "ⲛ̀ϫⲉ"
+            },
+            {
+              "t": "ⲡⲉⲕⲣⲁⲛ"
+            }
+          ],
+          "tr": {
+            "fr": "que ton nom soit sanctifié,",
+            "en": "hallowed be thy name,"
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L08"
+          },
+          "ref": {
+            "fr": "Tous",
+            "en": "All"
+          },
+          "role": "all",
+          "lang": "cop"
+        },
+        {
+          "id": "B-L08-3",
+          "g": [
+            {
+              "t": "ⲙⲁⲣⲉⲥⲓ̀"
+            },
+            {
+              "t": "ⲛ̀ϫⲉ"
+            },
+            {
+              "t": "ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ"
+            }
+          ],
+          "tr": {
+            "fr": "que ton règne vienne,",
+            "en": "thy kingdom come,"
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L08"
+          },
+          "ref": {
+            "fr": "Tous",
+            "en": "All"
+          },
+          "role": "all",
+          "lang": "cop"
+        },
+        {
+          "id": "B-L08-4",
+          "g": [
+            {
+              "t": "ⲡⲉⲧⲉϩⲛⲁⲕ"
+            },
+            {
+              "t": "ⲙⲁⲣⲉϥϣⲱⲡⲓ"
+            }
+          ],
+          "tr": {
+            "fr": "que ta volonté soit faite",
+            "en": "thy will be done"
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L08"
+          },
+          "ref": {
+            "fr": "Tous",
+            "en": "All"
+          },
+          "role": "all",
+          "lang": "cop"
+        },
+        {
+          "id": "B-L08-5",
+          "g": [
+            {
+              "t": "ⲙ̀ⲫ̀ⲣⲏϯ"
+            },
+            {
+              "t": "ϧⲉⲛ"
+            },
+            {
+              "t": "ⲧ̀ⲫⲉ"
+            },
+            {
+              "t": "ⲛⲉⲙ"
+            },
+            {
+              "t": "ϩⲓϫⲉⲛ"
+            },
+            {
+              "t": "ⲡⲓⲕⲁϩⲓ"
+            }
+          ],
+          "tr": {
+            "fr": "sur la terre comme au ciel.",
+            "en": "on earth as it is in heaven."
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L08"
+          },
+          "ref": {
+            "fr": "Tous",
+            "en": "All"
+          },
+          "role": "all",
+          "lang": "cop"
+        },
+        {
+          "id": "B-L08-6",
+          "g": [
+            {
+              "t": "ⲡⲉⲛⲱⲓⲕ"
+            },
+            {
+              "t": "ⲛ̀ⲧⲉ"
+            },
+            {
+              "t": "ⲣⲁⲥϯ"
+            },
+            {
+              "t": "ⲙⲏⲓϥ"
+            },
+            {
+              "t": "ⲛⲁⲛ"
+            },
+            {
+              "t": "ⲙ̀ⲫⲟⲟⲩ"
+            }
+          ],
+          "tr": {
+            "fr": "Donne-nous aujourd'hui notre pain de ce jour.",
+            "en": "Give us this day our daily bread."
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L08"
+          },
+          "ref": {
+            "fr": "Tous",
+            "en": "All"
+          },
+          "role": "all",
+          "lang": "cop"
+        },
+        {
+          "id": "B-L08-7",
+          "g": [
+            {
+              "t": "ⲟⲩⲟϩ"
+            },
+            {
+              "t": "ⲭⲁ"
+            },
+            {
+              "t": "ⲛⲏⲉⲧⲉⲣⲟⲛ"
+            },
+            {
+              "t": "ⲛⲁⲛ"
+            },
+            {
+              "t": "ⲉ̀ⲃⲟⲗ"
+            }
+          ],
+          "tr": {
+            "fr": "Pardonne-nous nos offenses,",
+            "en": "And forgive us our trespasses,"
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L08"
+          },
+          "ref": {
+            "fr": "Tous",
+            "en": "All"
+          },
+          "role": "all",
+          "lang": "cop"
+        },
+        {
+          "id": "B-L08-8",
+          "g": [
+            {
+              "t": "ⲙ̀ⲫ̀ⲣⲏϯ"
+            },
+            {
+              "t": "ϩⲱⲛ"
+            },
+            {
+              "t": "ⲛ̀ⲧⲉⲛⲭⲱ"
+            },
+            {
+              "t": "ⲉ̀ⲃⲟⲗ"
+            },
+            {
+              "t": "ⲛ̀ⲛⲏⲉⲧⲉ"
+            },
+            {
+              "t": "ⲟⲩⲟⲛ"
+            },
+            {
+              "t": "ⲛ̀ⲧⲁⲛ"
+            },
+            {
+              "t": "ⲉ̀ⲣⲱⲟⲩ"
+            }
+          ],
+          "tr": {
+            "fr": "comme nous pardonnons aussi à ceux qui nous ont offensés.",
+            "en": "as we forgive those who trespass against us."
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L08"
+          },
+          "ref": {
+            "fr": "Tous",
+            "en": "All"
+          },
+          "role": "all",
+          "lang": "cop"
+        },
+        {
+          "id": "B-L08-9",
+          "g": [
+            {
+              "t": "ⲟⲩⲟϩ"
+            },
+            {
+              "t": "ⲙ̀ⲡⲉⲣⲉⲛⲧⲉⲛ"
+            },
+            {
+              "t": "ⲉ̀ϧⲟⲩⲛ"
+            },
+            {
+              "t": "ⲉ̀ⲡⲓⲣⲁⲥⲙⲟⲥ"
+            }
+          ],
+          "tr": {
+            "fr": "Et ne nous laisse pas entrer en tentation,",
+            "en": "And lead us not into temptation,"
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L08"
+          },
+          "ref": {
+            "fr": "Tous",
+            "en": "All"
+          },
+          "role": "all",
+          "lang": "cop"
+        },
+        {
+          "id": "B-L08-10",
+          "g": [
+            {
+              "t": "ⲁ̀ⲗⲗⲁ"
+            },
+            {
+              "t": "ⲛⲁϩⲙⲉⲛ"
+            },
+            {
+              "t": "ⲉ̀ⲃⲟⲗ"
+            },
+            {
+              "t": "ϩⲁ"
+            },
+            {
+              "t": "ⲡⲓⲡⲉⲧϩⲱⲟⲩ"
+            }
+          ],
+          "tr": {
+            "fr": "mais délivre-nous du mal,",
+            "en": "but deliver us from evil,"
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L08"
+          },
+          "ref": {
+            "fr": "Tous",
+            "en": "All"
+          },
+          "role": "all",
+          "lang": "cop"
+        },
+        {
+          "id": "B-L08-11",
+          "g": [
+            {
+              "t": "ϧⲉⲛ"
+            },
+            {
+              "t": "Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ"
+            },
+            {
+              "t": "Ⲓⲏ̅ⲥ̅"
+            },
+            {
+              "t": "Ⲡⲉⲛϭⲟⲓⲥ"
+            }
+          ],
+          "tr": {
+            "fr": "par le Christ Jésus notre Seigneur,",
+            "en": "through Christ Jesus our Lord,"
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L08"
+          },
+          "ref": {
+            "fr": "Tous",
+            "en": "All"
+          },
+          "role": "all",
+          "lang": "cop"
+        },
+        {
+          "id": "B-L08-12",
+          "g": [
+            {
+              "t": "ϫⲉ"
+            },
+            {
+              "t": "ⲑⲱⲕ"
+            },
+            {
+              "t": "ⲧⲉ"
+            },
+            {
+              "t": "ϯⲙⲉⲧⲟⲩⲣⲟ"
+            },
+            {
+              "t": "ⲛⲉⲙ"
+            },
+            {
+              "t": "ϯϫⲟⲙ"
+            },
+            {
+              "t": "ⲛⲉⲙ"
+            },
+            {
+              "t": "ⲡⲓⲱ̀ⲟⲩ"
+            },
+            {
+              "t": "ϣⲁ"
+            },
+            {
+              "t": "ⲉ̀ⲛⲉϩ"
+            },
+            {
+              "t": "ⲁ̀ⲙⲏⲛ"
+            }
+          ],
+          "tr": {
+            "fr": "car à toi sont le règne, la puissance et la gloire, pour les siècles. Amen.",
+            "en": "for thine is the kingdom, the power and the glory, for ever. Amen."
+          },
+          "src": {
+            "corpus": "liturgy",
+            "doc": "B-L08"
+          },
+          "ref": {
+            "fr": "Tous",
+            "en": "All"
+          },
+          "role": "all",
+          "lang": "cop"
+        }
+      ]
+    }
+  ]
+}
