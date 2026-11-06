@@ -1,7 +1,7 @@
 {
   "$comment": "Généré par tools/publish_content.py — ne pas éditer à la main.",
   "schema": 1,
-  "version": 20261106145822,
+  "version": 20261106145823,
   "content_hash": "b7bfb0f80756a5163039566de4be4ad81c1e3333ad3fa22a68a85039f091668c",
   "files": {
     "letters.json": {
